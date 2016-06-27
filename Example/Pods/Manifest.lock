@@ -1,0 +1,19 @@
+PODS:
+  - SAJsonParser (1.2.3)
+  - SAModelSpace (0.1.0):
+    - SAJsonParser
+
+DEPENDENCIES:
+  - SAModelSpace (from `../`)
+
+EXTERNAL SOURCES:
+  SAModelSpace:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SAJsonParser: c0a5ace5d143bc50d5318a4981ebaf79858e4af8
+  SAModelSpace: 083c4b0e123d6619846f5cbb1cdbb249e44c01a8
+
+PODFILE CHECKSUM: ef601f9716dc0c69bf864d6f870f54fdd3d0f20a
+
+COCOAPODS: 1.0.1

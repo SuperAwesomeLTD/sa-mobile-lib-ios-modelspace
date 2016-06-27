@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAModelSpace_Example' do
+  pod 'SAModelSpace', :path => '../'
+
+  target 'SAModelSpace_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

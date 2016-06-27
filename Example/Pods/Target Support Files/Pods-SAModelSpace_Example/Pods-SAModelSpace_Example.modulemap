@@ -1,0 +1,6 @@
+framework module Pods_SAModelSpace_Example {
+  umbrella header "Pods-SAModelSpace_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
