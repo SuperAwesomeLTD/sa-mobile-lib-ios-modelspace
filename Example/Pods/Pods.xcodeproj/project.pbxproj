@@ -7,308 +7,202 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07908E741A57F4615556A709E47938CD /* SAModelSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167D909025377872FC38F71F7733756D /* SAModelSpace-dummy.m */; };
-		115A51F56FDEB01B3E999BFFFDF634B8 /* SAVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E7053071C72641164776EF54BABA8C /* SAVASTMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17ECDB1C67AA1007487FA247D58B46F9 /* SAVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE392B27D4ED064DDE3D38A2A90B9C3 /* SAVASTMediaFile.m */; };
-		1A1A15A0427A7C6EB90DF84E7C53FBB0 /* SAModelSpace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D20DF28BBC3D40E9504E42853476E99E /* SAModelSpace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20AE1B222EC58F0E06A86A4E0AEA54D1 /* SAVASTAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A398146149981BC57F6C66FA6528A63 /* SAVASTAd.m */; };
-		25CBD68A6848349148318875949AC290 /* SAJsonParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD11F4C29024C7961436AEA5E39FE76 /* SAJsonParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39F13F7B66587E60549C4BC399B2114A /* SACreative.m in Sources */ = {isa = PBXBuildFile; fileRef = C17C93F7153D44711E57870DAFCB9A21 /* SACreative.m */; };
-		3A6D9A297A279997ACC2F11A6E14CEA1 /* Pods-SAModelSpace_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D9EC6532985F1825C6D2B51CBFF070 /* Pods-SAModelSpace_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D1F9432B4B798FA1546E1447FD044C7 /* Pods-SAModelSpace_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F76ABD68A0E5980634DDBFA618C5A945 /* Pods-SAModelSpace_Example-dummy.m */; };
-		3F7C0E4D20476DEC77BB2F5E47DE3202 /* NSDictionary+SafeHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D585812B9E956AC2A7BBEBF78E2F632 /* NSDictionary+SafeHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49548B789A6A16872B2B08C2E9A6B0DA /* SAVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F737DD83FCBBC1C5DA266BD1BE53AC /* SAVASTCreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52DF2FA4C77AB6EF0C308162AFC3BA55 /* Pods-SAModelSpace_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 109C901C6C315CDB25BE5CDFB230C778 /* Pods-SAModelSpace_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544B1A52E2B33F778ABB381F50A36CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5211968FC0B5E45593BEDCB947059916 /* Foundation.framework */; };
-		5A384ACF8909530AD27A17B5A084D862 /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C2500FC76A7C7E8CCE36527EC5D205 /* NSDictionary+SAJson.m */; };
-		5BF8C4BB96CDC5FC4D0C5EE99BB616E9 /* SAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F42D38BAA4B3BB3393444AF41BB11994 /* SAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D79FFB9E7DB9B76B0DDAF24C75673F9 /* SAVASTCreative.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE615E88C55CA65291DF77E92271EF /* SAVASTCreative.m */; };
-		61FC08FCD828515CC8C2915A872CAB77 /* Pods-SAModelSpace_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 265612B469582F79A916380FC90D430E /* Pods-SAModelSpace_Tests-dummy.m */; };
-		629EBA8DBDC64FF1CE5141CA369BCBD2 /* SAData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7221837C17DD99114B2C0A8A63EA1B20 /* SAData.m */; };
-		65D293F4C403E3E81859FC8CC2CE5096 /* SADetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A020C80A7F509EAFC0BADD9477660C17 /* SADetails.m */; };
-		6B38A7A94CB1BDB6A6A24F98D6181300 /* SAVASTTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E844DD156F75728103966C0540DAC8 /* SAVASTTracking.m */; };
-		75AD83B33FC749AF3D067CD5815C2671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5211968FC0B5E45593BEDCB947059916 /* Foundation.framework */; };
-		75C13A9CAFA80A285C367866212E8D6D /* SAAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C515AA1D0858378823BF2465DD9EC5 /* SAAd.m */; };
-		8444DFA6465B81A7DD51E17320795697 /* NSArray+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF0F08C03B025031E0186B962519379 /* NSArray+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B3E7D53482DE324C3B8FB8E8F41BB20 /* SAVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B7C836B54343A9375E6102A435B93D /* SAVASTAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E16A2D365C85860F4EE62B5FAA7A92D /* NSDictionary+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8A572E9A1DDB1CE2E626B50F05EB3A /* NSDictionary+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		902C35FEE4DAA5C1FC569BFEAE7FC77D /* SABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0541BDBBB89B1C315040D99C7B6E88 /* SABaseObject.m */; };
-		9EDC1F776B80C08D981D062962F1ED75 /* SAData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE5F06BD18426A23676370CB2F5B8F4 /* SAData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A21D68C7A9616D143C608891AFE01B7B /* SABaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 11364E2EAC592C4C621B5B88722851AF /* SABaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A99408ED1C7692C66BBA025328390515 /* SACreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 20094882CABD41792A3E3E634B5287A8 /* SACreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC2FB20F9066D1ACD9D134534ECE40CD /* NSDictionary+SafeHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CE8DFEA5FBE10F37E99D3FCFDEF0A3 /* NSDictionary+SafeHandling.m */; };
-		AD1E3376E8E6A1588406673676211612 /* SADetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 2210B70FD9563EF3140C6F3C0A15EBBE /* SADetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4F20AA0C4A824895C9EE1EA65365419 /* SAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0A211B176F257CF4C3F88DEA120B6F /* SAJsonParser-dummy.m */; };
-		BF0F1B16C5A54F9E2D2A280ACFD09F8C /* SADeserializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 865036A41F6C0C5DB3E5FB55408C2624 /* SADeserializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFD2450934FCBCF1E4CE3BC1A3CF1449 /* SAVASTTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6328CDE604014DFC53C7357C61984E7E /* SAVASTTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3B6AD16BFEA136BDB3455BDB522E4C3 /* SAAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5313F3773B01BC208FE3763C4186A7 /* SAAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4BADB343897EC3AD8DE3CA2C5BFD8E2 /* SAJsonParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A53F83F6456459922C3FB3D9BFF5AEF /* SAJsonParser.framework */; };
-		D9176EF84B4C8D4F8A184CB8D499D0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5211968FC0B5E45593BEDCB947059916 /* Foundation.framework */; };
-		D9BC21ED1396D48908390111AAB122D9 /* SASerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FD362B8E5E7E94EFBBADCBFE026E8A85 /* SASerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBA1E8C96E3EC314A5632B801C44387C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5211968FC0B5E45593BEDCB947059916 /* Foundation.framework */; };
-		DC5FDB82722874B7EC6F49205CD1534A /* NSArray+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = EE26FBB9336D0214106DDD617F9A3900 /* NSArray+SAJson.m */; };
+		0047A55E239DF5BA68D99801C677AA99 /* NSDictionary+SafeHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E57CD9B48A700751F555AA24B24A78 /* NSDictionary+SafeHandling.m */; };
+		08F6F55134A7CAC3BC47863F210DFE43 /* SAVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CEB2DB77D551F4FE554149B0EC7915 /* SAVASTCreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B107FE34129529D18A5890EAC5FA9CC /* SAData.m in Sources */ = {isa = PBXBuildFile; fileRef = F88206E86F888CBB38EA26D93ADC1A2B /* SAData.m */; };
+		0D553F68620AB218AD6F79E953A34AEF /* SAAd.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A3688D0815A8EEDE28ACE9EEC7F396 /* SAAd.m */; };
+		12163664EA33ECFAC13455CBE51559B0 /* SAVASTAd.m in Sources */ = {isa = PBXBuildFile; fileRef = F359C174D08FFC9A50D88103BCC65B41 /* SAVASTAd.m */; };
+		3254399FF475B5FE6D8162B257844D02 /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D756A43B62E196F404F040BE661DBE /* NSDictionary+SAJson.m */; };
+		38AC83669A4C2F88CEB9C29C241D83A3 /* SABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8CD6FA7164BE2A9E86323936B9D36 /* SABaseObject.m */; };
+		39C6D8969F0DC315D83E773C81949F07 /* SAVASTTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F860C79AE64A48E557098A24E532648 /* SAVASTTracking.m */; };
+		3A6E1F1A0D38B5FFDBEE26604A3A95AF /* SADetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 686C1651457A38D3739815EB9BAA1E48 /* SADetails.m */; };
+		4E214B4C41B3D9F045B5C568854D73D1 /* SADeserializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A5D5C54F471D8A515AB024D152630A /* SADeserializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		560D5F76B46DCD085942CFA2C487D907 /* SAVASTCreative.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C850EAB066326EBCC422C7B4FFEB7D /* SAVASTCreative.m */; };
+		5B2C7CF1D4C76CCB9CC0AD139F9FD6CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		62BB99FB36EB89AD12ECA6710D7C6666 /* Pods-SAModelSpace_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E03620B79ADFFE9C864FA3DCB3CC2F /* Pods-SAModelSpace_Example-dummy.m */; };
+		64917569F3EB7FFC1B46531D04EE93DF /* SAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F81761FF03FE55D933D7B8F1D3978D /* SAJsonParser-dummy.m */; };
+		6999E8B31AE0E2431D2687D1CAC7A64E /* SAVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B31941FF83EE4A8B9F341596F4B2CDB /* SAVASTAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB4FFBCAC41B85D575718C0F5A0882B /* SAData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EADBB884F4C5E9E1CB96E29705E5E40 /* SAData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80756970A50A5567399CE83455A37DA8 /* SACreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3F8A718A40F65006E326BBAAAB76E3 /* SACreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A5C569189BD9DFA411666345F212CA /* SAAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 999021633ECB42DCBB9691C8801221F8 /* SAAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A59504DC715EF3C53AD7E23A652D7D1 /* SAModelSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D314902847D875261D7CC52D818E1D0D /* SAModelSpace-dummy.m */; };
+		8BF08563EE5F6DD83E6FA6BE338CA281 /* NSDictionary+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D76136B7E1B07788826380522938767 /* NSDictionary+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CAA9142A33ADE6997ACE91E5E2D397 /* SAVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA460BCAEED4FCDDFF8CD437EAD4D02 /* SAVASTMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C55D448541175E412D9DE2FFF4B7FD /* SABaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBCE6F5061C6AE4954E126D5D0E57BE /* SABaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		956EE2F12DCA4D6E3D7AC39028876914 /* NSArray+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 45890333112F167595613DB6AD7ACD04 /* NSArray+SAJson.m */; };
+		A186E2446F10F30083A334C6DB36FF5E /* NSArray+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = F735C49EDD1582D4C39F8DB937027416 /* NSArray+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7679B6A90FFB5CAA0AC998F168205C2 /* SASerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 283615D89C08C608DE17A8E8147A0BD4 /* SASerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02BA367F62954836A545B73143C8C98 /* SACreative.m in Sources */ = {isa = PBXBuildFile; fileRef = 837255D489C91E3E828C405D85C223E9 /* SACreative.m */; };
+		B1DD61E3E37884DA0C5FE79868A62B25 /* NSDictionary+SafeHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = A2728F6B818912F374A56BA5D527C32F /* NSDictionary+SafeHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71E0EF7E447D09B3082C877095FEE10 /* SADetails.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A8ED26B9D6BC5AEC4000DB964FD2E7 /* SADetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7886A9B22B224D7242832631E0E6F39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E7C67D3046CE43EDC82430F879573D96 /* SAVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7B108D8265D8AC9569FFC80E8BA47 /* SAVASTMediaFile.m */; };
+		E91F7DD23515442661D775303BEC3DB9 /* SAVASTTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3365C71AD57CE95C0DB7140A5DD7C26E /* SAVASTTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED895B806EF78D9529C8CA79C74ED021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FB139F67A453DF2D621B1746F21F73C3 /* SAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A89828B48A12A3CF2440AF2D6374269 /* SAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6C49B940FE443C9AABA345D378955022 /* PBXContainerItemProxy */ = {
+		051DC0BBF404E15D39CEF46A970882E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7C4B8FD8041FE42D6BD8957F87606C22;
+			remoteGlobalIDString = DB23EB78BB2FD5834DFB37D884AF89F7;
 			remoteInfo = SAModelSpace;
 		};
-		73C30D49E57A233FBC046E98DADBF024 /* PBXContainerItemProxy */ = {
+		24D602FABFFBF96FA68480B802151588 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55DBA02FAA67FAA9D6CE68A37D3C09F9;
+			remoteGlobalIDString = EC0EDDC6F10F2B267DF4DA80145A48F8;
 			remoteInfo = SAJsonParser;
 		};
-		F9462F659C5A6D5BCF1ED18729596C30 /* PBXContainerItemProxy */ = {
+		2B251EFC67663581E41E22836109B9A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 55DBA02FAA67FAA9D6CE68A37D3C09F9;
+			remoteGlobalIDString = EC0EDDC6F10F2B267DF4DA80145A48F8;
 			remoteInfo = SAJsonParser;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CAD47E44793CFE32804139DC85F685 /* Pods-SAModelSpace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAModelSpace_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0B4A48C2E4C5043820F1005345B96E26 /* Pods-SAModelSpace_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAModelSpace_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		109C901C6C315CDB25BE5CDFB230C778 /* Pods-SAModelSpace_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAModelSpace_Example-umbrella.h"; sourceTree = "<group>"; };
-		11364E2EAC592C4C621B5B88722851AF /* SABaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseObject.h; path = Pod/Classes/SABaseObject.h; sourceTree = "<group>"; };
-		167D909025377872FC38F71F7733756D /* SAModelSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAModelSpace-dummy.m"; sourceTree = "<group>"; };
-		17B7C836B54343A9375E6102A435B93D /* SAVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTAd.h; sourceTree = "<group>"; };
-		20094882CABD41792A3E3E634B5287A8 /* SACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SACreative.h; sourceTree = "<group>"; };
-		2017BCCD75ED62EEE194D3050A37DCC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2210B70FD9563EF3140C6F3C0A15EBBE /* SADetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SADetails.h; sourceTree = "<group>"; };
-		23956F70A7834FB38FCDABD3462FBC5F /* Pods_SAModelSpace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAModelSpace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		249A35DE0538A7A41447745F00E896E4 /* Pods-SAModelSpace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAModelSpace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		265612B469582F79A916380FC90D430E /* Pods-SAModelSpace_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAModelSpace_Tests-dummy.m"; sourceTree = "<group>"; };
-		2B8A572E9A1DDB1CE2E626B50F05EB3A /* NSDictionary+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAJson.h"; path = "Pod/Classes/NSDictionary+SAJson.h"; sourceTree = "<group>"; };
-		2E0541BDBBB89B1C315040D99C7B6E88 /* SABaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABaseObject.m; path = Pod/Classes/SABaseObject.m; sourceTree = "<group>"; };
-		3139BF842BF36595D631092CD9885C8B /* Pods-SAModelSpace_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAModelSpace_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3A398146149981BC57F6C66FA6528A63 /* SAVASTAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTAd.m; sourceTree = "<group>"; };
-		3A53F83F6456459922C3FB3D9BFF5AEF /* SAJsonParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAJsonParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C0A0FCC65FF898BBBC52ABBE89C5093 /* SAModelSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAModelSpace.xcconfig; sourceTree = "<group>"; };
-		3CBD222D400CF1B06A3E31B77E08A695 /* Pods-SAModelSpace_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAModelSpace_Tests-resources.sh"; sourceTree = "<group>"; };
-		42E844DD156F75728103966C0540DAC8 /* SAVASTTracking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTTracking.m; sourceTree = "<group>"; };
-		4CF0F08C03B025031E0186B962519379 /* NSArray+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAJson.h"; path = "Pod/Classes/NSArray+SAJson.h"; sourceTree = "<group>"; };
-		4D585812B9E956AC2A7BBEBF78E2F632 /* NSDictionary+SafeHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeHandling.h"; path = "Pod/Classes/NSDictionary+SafeHandling.h"; sourceTree = "<group>"; };
-		5211968FC0B5E45593BEDCB947059916 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5475533C2C3D147C521885C6F9EA6F80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55C515AA1D0858378823BF2465DD9EC5 /* SAAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAd.m; sourceTree = "<group>"; };
-		588A8100C7CC2915B07054D9D5AA6755 /* Pods-SAModelSpace_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SAModelSpace_Example.modulemap"; sourceTree = "<group>"; };
-		5EE392B27D4ED064DDE3D38A2A90B9C3 /* SAVASTMediaFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTMediaFile.m; sourceTree = "<group>"; };
-		61CE8DFEA5FBE10F37E99D3FCFDEF0A3 /* NSDictionary+SafeHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SafeHandling.m"; path = "Pod/Classes/NSDictionary+SafeHandling.m"; sourceTree = "<group>"; };
-		61F737DD83FCBBC1C5DA266BD1BE53AC /* SAVASTCreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTCreative.h; sourceTree = "<group>"; };
-		6328CDE604014DFC53C7357C61984E7E /* SAVASTTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTTracking.h; sourceTree = "<group>"; };
-		639DA608DA7E99BF4EBCFF8B0DE819AE /* SAModelSpace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAModelSpace.modulemap; sourceTree = "<group>"; };
-		6ADE615E88C55CA65291DF77E92271EF /* SAVASTCreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTCreative.m; sourceTree = "<group>"; };
-		6C53348DC91A2CDBD2584DF365E1CE4B /* Pods-SAModelSpace_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAModelSpace_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6DBD04582EAC6E260692E0D6D51DADB8 /* Pods-SAModelSpace_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAModelSpace_Example-resources.sh"; sourceTree = "<group>"; };
-		70B31C0BDAA42D4622B6858719D35A0F /* Pods-SAModelSpace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAModelSpace_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7221837C17DD99114B2C0A8A63EA1B20 /* SAData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAData.m; sourceTree = "<group>"; };
-		777366D8882B08FF0F4AC2C565DA9959 /* Pods-SAModelSpace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAModelSpace_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B05D90F1EF0A68E25303624EF147A72 /* Pods-SAModelSpace_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SAModelSpace_Tests.modulemap"; sourceTree = "<group>"; };
-		7BE5F06BD18426A23676370CB2F5B8F4 /* SAData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAData.h; sourceTree = "<group>"; };
-		7F08DE4E1A328E4E293911C166FEA457 /* SAJsonParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAJsonParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		865036A41F6C0C5DB3E5FB55408C2624 /* SADeserializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeserializationProtocol.h; path = Pod/Classes/SADeserializationProtocol.h; sourceTree = "<group>"; };
-		8934D9AD9CC41B151EBA3C0C64A0E95B /* Pods-SAModelSpace_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAModelSpace_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		91CA334E1B3D905A9CD6F72C176AE60D /* SAJsonParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAJsonParser.modulemap; sourceTree = "<group>"; };
-		91D9EC6532985F1825C6D2B51CBFF070 /* Pods-SAModelSpace_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAModelSpace_Tests-umbrella.h"; sourceTree = "<group>"; };
+		07D508B5E174CF1C9C39157698C30E99 /* libSAModelSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAModelSpace.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC7B4844294CD2E07ABD8EB97CDFD15 /* libPods-SAModelSpace_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F860C79AE64A48E557098A24E532648 /* SAVASTTracking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTTracking.m; sourceTree = "<group>"; };
+		10CEB2DB77D551F4FE554149B0EC7915 /* SAVASTCreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTCreative.h; sourceTree = "<group>"; };
+		19C4B3CB8B9076C10BE830F691D69455 /* SAModelSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAModelSpace-prefix.pch"; sourceTree = "<group>"; };
+		1B31941FF83EE4A8B9F341596F4B2CDB /* SAVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTAd.h; sourceTree = "<group>"; };
+		1D3F8A718A40F65006E326BBAAAB76E3 /* SACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SACreative.h; sourceTree = "<group>"; };
+		1FBCE6F5061C6AE4954E126D5D0E57BE /* SABaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseObject.h; path = Pod/Classes/SABaseObject.h; sourceTree = "<group>"; };
+		283615D89C08C608DE17A8E8147A0BD4 /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
+		2A94296B499C45F17C0E6DA889299D22 /* SAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAJsonParser.xcconfig; sourceTree = "<group>"; };
+		2D76136B7E1B07788826380522938767 /* NSDictionary+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAJson.h"; path = "Pod/Classes/NSDictionary+SAJson.h"; sourceTree = "<group>"; };
+		3365C71AD57CE95C0DB7140A5DD7C26E /* SAVASTTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTTracking.h; sourceTree = "<group>"; };
+		36E7B108D8265D8AC9569FFC80E8BA47 /* SAVASTMediaFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTMediaFile.m; sourceTree = "<group>"; };
+		395D3B75E54BB1B795141D8E74A8F654 /* libSAJsonParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAJsonParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6A445788E3D357121FE06BA6D3FB3 /* Pods-SAModelSpace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAModelSpace_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3EADBB884F4C5E9E1CB96E29705E5E40 /* SAData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAData.h; sourceTree = "<group>"; };
+		45890333112F167595613DB6AD7ACD04 /* NSArray+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SAJson.m"; path = "Pod/Classes/NSArray+SAJson.m"; sourceTree = "<group>"; };
+		45E57CD9B48A700751F555AA24B24A78 /* NSDictionary+SafeHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SafeHandling.m"; path = "Pod/Classes/NSDictionary+SafeHandling.m"; sourceTree = "<group>"; };
+		56C850EAB066326EBCC422C7B4FFEB7D /* SAVASTCreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTCreative.m; sourceTree = "<group>"; };
+		5A89828B48A12A3CF2440AF2D6374269 /* SAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJsonParser.h; path = Pod/Classes/SAJsonParser.h; sourceTree = "<group>"; };
+		61B12B6BCF41BC4888174AAFB698F08A /* SAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-prefix.pch"; sourceTree = "<group>"; };
+		6258C41621D3E61A26540A83270DD8B2 /* Pods-SAModelSpace_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAModelSpace_Example-frameworks.sh"; sourceTree = "<group>"; };
+		62F81761FF03FE55D933D7B8F1D3978D /* SAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAJsonParser-dummy.m"; sourceTree = "<group>"; };
+		686C1651457A38D3739815EB9BAA1E48 /* SADetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SADetails.m; sourceTree = "<group>"; };
+		7BA460BCAEED4FCDDFF8CD437EAD4D02 /* SAVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTMediaFile.h; sourceTree = "<group>"; };
+		7C469FF292ECA8669067C3727132ED85 /* Pods-SAModelSpace_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAModelSpace_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		837255D489C91E3E828C405D85C223E9 /* SACreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SACreative.m; sourceTree = "<group>"; };
+		87A8CD6FA7164BE2A9E86323936B9D36 /* SABaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABaseObject.m; path = Pod/Classes/SABaseObject.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99E7053071C72641164776EF54BABA8C /* SAVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTMediaFile.h; sourceTree = "<group>"; };
-		9E5313F3773B01BC208FE3763C4186A7 /* SAAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAd.h; sourceTree = "<group>"; };
-		A020C80A7F509EAFC0BADD9477660C17 /* SADetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SADetails.m; sourceTree = "<group>"; };
-		AC0A211B176F257CF4C3F88DEA120B6F /* SAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAJsonParser-dummy.m"; sourceTree = "<group>"; };
-		AC9515E492D455924D1D8B15B1681A5C /* Pods-SAModelSpace_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAModelSpace_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFCFBA2362098DF6D179FD8F92859757 /* SAModelSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAModelSpace-prefix.pch"; sourceTree = "<group>"; };
-		AFD11F4C29024C7961436AEA5E39FE76 /* SAJsonParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-umbrella.h"; sourceTree = "<group>"; };
-		B67E58E9A2C59B4C30CAC6B9A37968D9 /* SAModelSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAModelSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C17C93F7153D44711E57870DAFCB9A21 /* SACreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SACreative.m; sourceTree = "<group>"; };
-		C1C2500FC76A7C7E8CCE36527EC5D205 /* NSDictionary+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SAJson.m"; path = "Pod/Classes/NSDictionary+SAJson.m"; sourceTree = "<group>"; };
-		CB45F3A42D771424BD281CF5EA74DCB6 /* SAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAJsonParser.xcconfig; sourceTree = "<group>"; };
-		CF4BACBBCDEC304630BD5BEF740B31BC /* Pods_SAModelSpace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAModelSpace_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D20DF28BBC3D40E9504E42853476E99E /* SAModelSpace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAModelSpace-umbrella.h"; sourceTree = "<group>"; };
-		DAF0C79ACB127C82D56A55904567DB1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE772EEA1C2366DADBCB7A2B871A7896 /* SAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-prefix.pch"; sourceTree = "<group>"; };
-		E7FA3EBDC62697B0F2B634709668C685 /* Pods-SAModelSpace_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAModelSpace_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EE26FBB9336D0214106DDD617F9A3900 /* NSArray+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SAJson.m"; path = "Pod/Classes/NSArray+SAJson.m"; sourceTree = "<group>"; };
-		F42D38BAA4B3BB3393444AF41BB11994 /* SAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJsonParser.h; path = Pod/Classes/SAJsonParser.h; sourceTree = "<group>"; };
-		F5C284159E5019B3B7922732EC1DB1C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F76ABD68A0E5980634DDBFA618C5A945 /* Pods-SAModelSpace_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAModelSpace_Example-dummy.m"; sourceTree = "<group>"; };
-		FD362B8E5E7E94EFBBADCBFE026E8A85 /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
+		96A5D5C54F471D8A515AB024D152630A /* SADeserializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeserializationProtocol.h; path = Pod/Classes/SADeserializationProtocol.h; sourceTree = "<group>"; };
+		999021633ECB42DCBB9691C8801221F8 /* SAAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAd.h; sourceTree = "<group>"; };
+		9A10138A9B417DE1F70EF07D2433BC76 /* Pods-SAModelSpace_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAModelSpace_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C0F6614F45A21D83BBCAC3F58E2B341 /* SAModelSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAModelSpace.xcconfig; sourceTree = "<group>"; };
+		A2728F6B818912F374A56BA5D527C32F /* NSDictionary+SafeHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeHandling.h"; path = "Pod/Classes/NSDictionary+SafeHandling.h"; sourceTree = "<group>"; };
+		A9A8ED26B9D6BC5AEC4000DB964FD2E7 /* SADetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SADetails.h; sourceTree = "<group>"; };
+		B4E03620B79ADFFE9C864FA3DCB3CC2F /* Pods-SAModelSpace_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAModelSpace_Example-dummy.m"; sourceTree = "<group>"; };
+		B9D756A43B62E196F404F040BE661DBE /* NSDictionary+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SAJson.m"; path = "Pod/Classes/NSDictionary+SAJson.m"; sourceTree = "<group>"; };
+		BEEEAE826816793708C3ECE5B218F9E8 /* Pods-SAModelSpace_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAModelSpace_Example-resources.sh"; sourceTree = "<group>"; };
+		C06187E895C2305EB5405B4D962189E8 /* Pods-SAModelSpace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAModelSpace_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D314902847D875261D7CC52D818E1D0D /* SAModelSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAModelSpace-dummy.m"; sourceTree = "<group>"; };
+		F359C174D08FFC9A50D88103BCC65B41 /* SAVASTAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTAd.m; sourceTree = "<group>"; };
+		F735C49EDD1582D4C39F8DB937027416 /* NSArray+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAJson.h"; path = "Pod/Classes/NSArray+SAJson.h"; sourceTree = "<group>"; };
+		F7A3688D0815A8EEDE28ACE9EEC7F396 /* SAAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAd.m; sourceTree = "<group>"; };
+		F88206E86F888CBB38EA26D93ADC1A2B /* SAData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		051C9868F76D9E7A7B6EA31D42472E55 /* Frameworks */ = {
+		A7B791E14886093D272020495BBBA2AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				544B1A52E2B33F778ABB381F50A36CEF /* Foundation.framework in Frameworks */,
+				5B2C7CF1D4C76CCB9CC0AD139F9FD6CD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36DBDAA7A995E6757319845B14C96EBB /* Frameworks */ = {
+		AE865A7978A9D2453ADD0F7AE8C363CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9176EF84B4C8D4F8A184CB8D499D0D3 /* Foundation.framework in Frameworks */,
+				D7886A9B22B224D7242832631E0E6F39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A1A7C63E83CF61A28DF2C864B489509 /* Frameworks */ = {
+		DFDB884BC61E4A551CFC19CEC29403B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA1E8C96E3EC314A5632B801C44387C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A31C266D8EFB2C4AA137A90063AB6E37 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75AD83B33FC749AF3D067CD5815C2671 /* Foundation.framework in Frameworks */,
-				D4BADB343897EC3AD8DE3CA2C5BFD8E2 /* SAJsonParser.framework in Frameworks */,
+				ED895B806EF78D9529C8CA79C74ED021 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01326517F0E5EE4EC084D0FC42AF58DE /* Classes */ = {
+		0488A149DD19B29F559BEFF0606B3B79 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9E5313F3773B01BC208FE3763C4186A7 /* SAAd.h */,
-				55C515AA1D0858378823BF2465DD9EC5 /* SAAd.m */,
-				20094882CABD41792A3E3E634B5287A8 /* SACreative.h */,
-				C17C93F7153D44711E57870DAFCB9A21 /* SACreative.m */,
-				7BE5F06BD18426A23676370CB2F5B8F4 /* SAData.h */,
-				7221837C17DD99114B2C0A8A63EA1B20 /* SAData.m */,
-				2210B70FD9563EF3140C6F3C0A15EBBE /* SADetails.h */,
-				A020C80A7F509EAFC0BADD9477660C17 /* SADetails.m */,
-				17B7C836B54343A9375E6102A435B93D /* SAVASTAd.h */,
-				3A398146149981BC57F6C66FA6528A63 /* SAVASTAd.m */,
-				61F737DD83FCBBC1C5DA266BD1BE53AC /* SAVASTCreative.h */,
-				6ADE615E88C55CA65291DF77E92271EF /* SAVASTCreative.m */,
-				99E7053071C72641164776EF54BABA8C /* SAVASTMediaFile.h */,
-				5EE392B27D4ED064DDE3D38A2A90B9C3 /* SAVASTMediaFile.m */,
-				6328CDE604014DFC53C7357C61984E7E /* SAVASTTracking.h */,
-				42E844DD156F75728103966C0540DAC8 /* SAVASTTracking.m */,
+				8ADE9A5571EC1E20E4237DF92577C52F /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		05DB62F13E79F56644E37EFA3517E532 /* SAModelSpace */ = {
+		06E2ECD69297DC78F2DE3030CEFE99CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2678E588D965A64E32DF94733F13D697 /* Pod */,
-				2463E138D01238F9D8BFF4D3E7587895 /* Support Files */,
+				0EC7B4844294CD2E07ABD8EB97CDFD15 /* libPods-SAModelSpace_Example.a */,
+				395D3B75E54BB1B795141D8E74A8F654 /* libSAJsonParser.a */,
+				07D508B5E174CF1C9C39157698C30E99 /* libSAModelSpace.a */,
 			);
-			name = SAModelSpace;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		06A047A8019C9FBA6D84AFC1F7FCE2A4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3A53F83F6456459922C3FB3D9BFF5AEF /* SAJsonParser.framework */,
-				E2E999D31055DA0977903881113B5C1A /* iOS */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		0C6D6024FF25B106BACA8392B6886EE8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7475C187911FDAF300FCF99050560163 /* SAJsonParser */,
+				1FD9CA87695AACEB8194F13830725510 /* SAJsonParser */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2463E138D01238F9D8BFF4D3E7587895 /* Support Files */ = {
+		1FD9CA87695AACEB8194F13830725510 /* SAJsonParser */ = {
 			isa = PBXGroup;
 			children = (
-				F5C284159E5019B3B7922732EC1DB1C2 /* Info.plist */,
-				639DA608DA7E99BF4EBCFF8B0DE819AE /* SAModelSpace.modulemap */,
-				3C0A0FCC65FF898BBBC52ABBE89C5093 /* SAModelSpace.xcconfig */,
-				167D909025377872FC38F71F7733756D /* SAModelSpace-dummy.m */,
-				AFCFBA2362098DF6D179FD8F92859757 /* SAModelSpace-prefix.pch */,
-				D20DF28BBC3D40E9504E42853476E99E /* SAModelSpace-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SAModelSpace";
-			sourceTree = "<group>";
-		};
-		2678E588D965A64E32DF94733F13D697 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				01326517F0E5EE4EC084D0FC42AF58DE /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		51E6E0DD6886047D410B3C705ECAA9D1 /* Pods-SAModelSpace_Example */ = {
-			isa = PBXGroup;
-			children = (
-				2017BCCD75ED62EEE194D3050A37DCC3 /* Info.plist */,
-				588A8100C7CC2915B07054D9D5AA6755 /* Pods-SAModelSpace_Example.modulemap */,
-				AC9515E492D455924D1D8B15B1681A5C /* Pods-SAModelSpace_Example-acknowledgements.markdown */,
-				8934D9AD9CC41B151EBA3C0C64A0E95B /* Pods-SAModelSpace_Example-acknowledgements.plist */,
-				F76ABD68A0E5980634DDBFA618C5A945 /* Pods-SAModelSpace_Example-dummy.m */,
-				3139BF842BF36595D631092CD9885C8B /* Pods-SAModelSpace_Example-frameworks.sh */,
-				6DBD04582EAC6E260692E0D6D51DADB8 /* Pods-SAModelSpace_Example-resources.sh */,
-				109C901C6C315CDB25BE5CDFB230C778 /* Pods-SAModelSpace_Example-umbrella.h */,
-				777366D8882B08FF0F4AC2C565DA9959 /* Pods-SAModelSpace_Example.debug.xcconfig */,
-				70B31C0BDAA42D4622B6858719D35A0F /* Pods-SAModelSpace_Example.release.xcconfig */,
-			);
-			name = "Pods-SAModelSpace_Example";
-			path = "Target Support Files/Pods-SAModelSpace_Example";
-			sourceTree = "<group>";
-		};
-		5F8CCE99F314D1B244698EC6E35F407A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				51E6E0DD6886047D410B3C705ECAA9D1 /* Pods-SAModelSpace_Example */,
-				D172EE94B4B3A6B2B606B5A575A3DC15 /* Pods-SAModelSpace_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7475C187911FDAF300FCF99050560163 /* SAJsonParser */ = {
-			isa = PBXGroup;
-			children = (
-				4CF0F08C03B025031E0186B962519379 /* NSArray+SAJson.h */,
-				EE26FBB9336D0214106DDD617F9A3900 /* NSArray+SAJson.m */,
-				4D585812B9E956AC2A7BBEBF78E2F632 /* NSDictionary+SafeHandling.h */,
-				61CE8DFEA5FBE10F37E99D3FCFDEF0A3 /* NSDictionary+SafeHandling.m */,
-				2B8A572E9A1DDB1CE2E626B50F05EB3A /* NSDictionary+SAJson.h */,
-				C1C2500FC76A7C7E8CCE36527EC5D205 /* NSDictionary+SAJson.m */,
-				11364E2EAC592C4C621B5B88722851AF /* SABaseObject.h */,
-				2E0541BDBBB89B1C315040D99C7B6E88 /* SABaseObject.m */,
-				865036A41F6C0C5DB3E5FB55408C2624 /* SADeserializationProtocol.h */,
-				F42D38BAA4B3BB3393444AF41BB11994 /* SAJsonParser.h */,
-				FD362B8E5E7E94EFBBADCBFE026E8A85 /* SASerializationProtocol.h */,
-				776FD13F4021B4D42450B6A86681DACF /* Support Files */,
+				F735C49EDD1582D4C39F8DB937027416 /* NSArray+SAJson.h */,
+				45890333112F167595613DB6AD7ACD04 /* NSArray+SAJson.m */,
+				A2728F6B818912F374A56BA5D527C32F /* NSDictionary+SafeHandling.h */,
+				45E57CD9B48A700751F555AA24B24A78 /* NSDictionary+SafeHandling.m */,
+				2D76136B7E1B07788826380522938767 /* NSDictionary+SAJson.h */,
+				B9D756A43B62E196F404F040BE661DBE /* NSDictionary+SAJson.m */,
+				1FBCE6F5061C6AE4954E126D5D0E57BE /* SABaseObject.h */,
+				87A8CD6FA7164BE2A9E86323936B9D36 /* SABaseObject.m */,
+				96A5D5C54F471D8A515AB024D152630A /* SADeserializationProtocol.h */,
+				5A89828B48A12A3CF2440AF2D6374269 /* SAJsonParser.h */,
+				283615D89C08C608DE17A8E8147A0BD4 /* SASerializationProtocol.h */,
+				E96E0E6C693D9428418F56B439CB45A3 /* Support Files */,
 			);
 			path = SAJsonParser;
 			sourceTree = "<group>";
 		};
-		776FD13F4021B4D42450B6A86681DACF /* Support Files */ = {
+		3D1B86E801CF26CA03A5AA55EA2A6F12 /* SAModelSpace */ = {
 			isa = PBXGroup;
 			children = (
-				5475533C2C3D147C521885C6F9EA6F80 /* Info.plist */,
-				91CA334E1B3D905A9CD6F72C176AE60D /* SAJsonParser.modulemap */,
-				CB45F3A42D771424BD281CF5EA74DCB6 /* SAJsonParser.xcconfig */,
-				AC0A211B176F257CF4C3F88DEA120B6F /* SAJsonParser-dummy.m */,
-				DE772EEA1C2366DADBCB7A2B871A7896 /* SAJsonParser-prefix.pch */,
-				AFD11F4C29024C7961436AEA5E39FE76 /* SAJsonParser-umbrella.h */,
+				0488A149DD19B29F559BEFF0606B3B79 /* Pod */,
+				8E07D24E98A62B45B835CD0A9015F543 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SAJsonParser";
+			name = SAModelSpace;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -316,54 +210,93 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FFF61FB1319B593705BE79FD0B6F1857 /* Development Pods */,
-				06A047A8019C9FBA6D84AFC1F7FCE2A4 /* Frameworks */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0C6D6024FF25B106BACA8392B6886EE8 /* Pods */,
-				7ECA7CDED4D54570660D2AF2779DDBA1 /* Products */,
-				5F8CCE99F314D1B244698EC6E35F407A /* Targets Support Files */,
+				06E2ECD69297DC78F2DE3030CEFE99CE /* Products */,
+				9A0E81E82FCFC5A44FFB17B556921EED /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7ECA7CDED4D54570660D2AF2779DDBA1 /* Products */ = {
+		8ADE9A5571EC1E20E4237DF92577C52F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CF4BACBBCDEC304630BD5BEF740B31BC /* Pods_SAModelSpace_Example.framework */,
-				23956F70A7834FB38FCDABD3462FBC5F /* Pods_SAModelSpace_Tests.framework */,
-				7F08DE4E1A328E4E293911C166FEA457 /* SAJsonParser.framework */,
-				B67E58E9A2C59B4C30CAC6B9A37968D9 /* SAModelSpace.framework */,
+				999021633ECB42DCBB9691C8801221F8 /* SAAd.h */,
+				F7A3688D0815A8EEDE28ACE9EEC7F396 /* SAAd.m */,
+				1D3F8A718A40F65006E326BBAAAB76E3 /* SACreative.h */,
+				837255D489C91E3E828C405D85C223E9 /* SACreative.m */,
+				3EADBB884F4C5E9E1CB96E29705E5E40 /* SAData.h */,
+				F88206E86F888CBB38EA26D93ADC1A2B /* SAData.m */,
+				A9A8ED26B9D6BC5AEC4000DB964FD2E7 /* SADetails.h */,
+				686C1651457A38D3739815EB9BAA1E48 /* SADetails.m */,
+				1B31941FF83EE4A8B9F341596F4B2CDB /* SAVASTAd.h */,
+				F359C174D08FFC9A50D88103BCC65B41 /* SAVASTAd.m */,
+				10CEB2DB77D551F4FE554149B0EC7915 /* SAVASTCreative.h */,
+				56C850EAB066326EBCC422C7B4FFEB7D /* SAVASTCreative.m */,
+				7BA460BCAEED4FCDDFF8CD437EAD4D02 /* SAVASTMediaFile.h */,
+				36E7B108D8265D8AC9569FFC80E8BA47 /* SAVASTMediaFile.m */,
+				3365C71AD57CE95C0DB7140A5DD7C26E /* SAVASTTracking.h */,
+				0F860C79AE64A48E557098A24E532648 /* SAVASTTracking.m */,
 			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		D172EE94B4B3A6B2B606B5A575A3DC15 /* Pods-SAModelSpace_Tests */ = {
+		8E07D24E98A62B45B835CD0A9015F543 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAF0C79ACB127C82D56A55904567DB1E /* Info.plist */,
-				7B05D90F1EF0A68E25303624EF147A72 /* Pods-SAModelSpace_Tests.modulemap */,
-				6C53348DC91A2CDBD2584DF365E1CE4B /* Pods-SAModelSpace_Tests-acknowledgements.markdown */,
-				0B4A48C2E4C5043820F1005345B96E26 /* Pods-SAModelSpace_Tests-acknowledgements.plist */,
-				265612B469582F79A916380FC90D430E /* Pods-SAModelSpace_Tests-dummy.m */,
-				E7FA3EBDC62697B0F2B634709668C685 /* Pods-SAModelSpace_Tests-frameworks.sh */,
-				3CBD222D400CF1B06A3E31B77E08A695 /* Pods-SAModelSpace_Tests-resources.sh */,
-				91D9EC6532985F1825C6D2B51CBFF070 /* Pods-SAModelSpace_Tests-umbrella.h */,
-				249A35DE0538A7A41447745F00E896E4 /* Pods-SAModelSpace_Tests.debug.xcconfig */,
-				07CAD47E44793CFE32804139DC85F685 /* Pods-SAModelSpace_Tests.release.xcconfig */,
+				9C0F6614F45A21D83BBCAC3F58E2B341 /* SAModelSpace.xcconfig */,
+				D314902847D875261D7CC52D818E1D0D /* SAModelSpace-dummy.m */,
+				19C4B3CB8B9076C10BE830F691D69455 /* SAModelSpace-prefix.pch */,
 			);
-			name = "Pods-SAModelSpace_Tests";
-			path = "Target Support Files/Pods-SAModelSpace_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SAModelSpace";
 			sourceTree = "<group>";
 		};
-		E2E999D31055DA0977903881113B5C1A /* iOS */ = {
+		9A0E81E82FCFC5A44FFB17B556921EED /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5211968FC0B5E45593BEDCB947059916 /* Foundation.framework */,
+				D3165162D6F6685BC5A8D230E8648DB2 /* Pods-SAModelSpace_Example */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3165162D6F6685BC5A8D230E8648DB2 /* Pods-SAModelSpace_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9A10138A9B417DE1F70EF07D2433BC76 /* Pods-SAModelSpace_Example-acknowledgements.markdown */,
+				7C469FF292ECA8669067C3727132ED85 /* Pods-SAModelSpace_Example-acknowledgements.plist */,
+				B4E03620B79ADFFE9C864FA3DCB3CC2F /* Pods-SAModelSpace_Example-dummy.m */,
+				6258C41621D3E61A26540A83270DD8B2 /* Pods-SAModelSpace_Example-frameworks.sh */,
+				BEEEAE826816793708C3ECE5B218F9E8 /* Pods-SAModelSpace_Example-resources.sh */,
+				C06187E895C2305EB5405B4D962189E8 /* Pods-SAModelSpace_Example.debug.xcconfig */,
+				3CF6A445788E3D357121FE06BA6D3FB3 /* Pods-SAModelSpace_Example.release.xcconfig */,
+			);
+			name = "Pods-SAModelSpace_Example";
+			path = "Target Support Files/Pods-SAModelSpace_Example";
+			sourceTree = "<group>";
+		};
+		E96E0E6C693D9428418F56B439CB45A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A94296B499C45F17C0E6DA889299D22 /* SAJsonParser.xcconfig */,
+				62F81761FF03FE55D933D7B8F1D3978D /* SAJsonParser-dummy.m */,
+				61B12B6BCF41BC4888174AAFB698F08A /* SAJsonParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAJsonParser";
 			sourceTree = "<group>";
 		};
 		FFF61FB1319B593705BE79FD0B6F1857 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05DB62F13E79F56644E37EFA3517E532 /* SAModelSpace */,
+				3D1B86E801CF26CA03A5AA55EA2A6F12 /* SAModelSpace */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -371,82 +304,81 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		271332305F416A05E2455E6DCC930CBD /* Headers */ = {
+		71050811DE2EC6073655FD6D6F271669 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DF2FA4C77AB6EF0C308162AFC3BA55 /* Pods-SAModelSpace_Example-umbrella.h in Headers */,
+				A186E2446F10F30083A334C6DB36FF5E /* NSArray+SAJson.h in Headers */,
+				B1DD61E3E37884DA0C5FE79868A62B25 /* NSDictionary+SafeHandling.h in Headers */,
+				8BF08563EE5F6DD83E6FA6BE338CA281 /* NSDictionary+SAJson.h in Headers */,
+				92C55D448541175E412D9DE2FFF4B7FD /* SABaseObject.h in Headers */,
+				4E214B4C41B3D9F045B5C568854D73D1 /* SADeserializationProtocol.h in Headers */,
+				FB139F67A453DF2D621B1746F21F73C3 /* SAJsonParser.h in Headers */,
+				A7679B6A90FFB5CAA0AC998F168205C2 /* SASerializationProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98920CF5D86693F4E2419D3BEE68E2FE /* Headers */ = {
+		934E4CEF81FCCCB22179F301CBDCCD93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8444DFA6465B81A7DD51E17320795697 /* NSArray+SAJson.h in Headers */,
-				3F7C0E4D20476DEC77BB2F5E47DE3202 /* NSDictionary+SafeHandling.h in Headers */,
-				8E16A2D365C85860F4EE62B5FAA7A92D /* NSDictionary+SAJson.h in Headers */,
-				A21D68C7A9616D143C608891AFE01B7B /* SABaseObject.h in Headers */,
-				BF0F1B16C5A54F9E2D2A280ACFD09F8C /* SADeserializationProtocol.h in Headers */,
-				25CBD68A6848349148318875949AC290 /* SAJsonParser-umbrella.h in Headers */,
-				5BF8C4BB96CDC5FC4D0C5EE99BB616E9 /* SAJsonParser.h in Headers */,
-				D9BC21ED1396D48908390111AAB122D9 /* SASerializationProtocol.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B56967328AACDBC209D90D070B6B32EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3B6AD16BFEA136BDB3455BDB522E4C3 /* SAAd.h in Headers */,
-				A99408ED1C7692C66BBA025328390515 /* SACreative.h in Headers */,
-				9EDC1F776B80C08D981D062962F1ED75 /* SAData.h in Headers */,
-				AD1E3376E8E6A1588406673676211612 /* SADetails.h in Headers */,
-				1A1A15A0427A7C6EB90DF84E7C53FBB0 /* SAModelSpace-umbrella.h in Headers */,
-				8B3E7D53482DE324C3B8FB8E8F41BB20 /* SAVASTAd.h in Headers */,
-				49548B789A6A16872B2B08C2E9A6B0DA /* SAVASTCreative.h in Headers */,
-				115A51F56FDEB01B3E999BFFFDF634B8 /* SAVASTMediaFile.h in Headers */,
-				BFD2450934FCBCF1E4CE3BC1A3CF1449 /* SAVASTTracking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7EF59BFF80D7ED266E1F7BF92224E54 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A6D9A297A279997ACC2F11A6E14CEA1 /* Pods-SAModelSpace_Tests-umbrella.h in Headers */,
+				80A5C569189BD9DFA411666345F212CA /* SAAd.h in Headers */,
+				80756970A50A5567399CE83455A37DA8 /* SACreative.h in Headers */,
+				7DB4FFBCAC41B85D575718C0F5A0882B /* SAData.h in Headers */,
+				C71E0EF7E447D09B3082C877095FEE10 /* SADetails.h in Headers */,
+				6999E8B31AE0E2431D2687D1CAC7A64E /* SAVASTAd.h in Headers */,
+				08F6F55134A7CAC3BC47863F210DFE43 /* SAVASTCreative.h in Headers */,
+				91CAA9142A33ADE6997ACE91E5E2D397 /* SAVASTMediaFile.h in Headers */,
+				E91F7DD23515442661D775303BEC3DB9 /* SAVASTTracking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		553765A3446EB7383FAE9CCC4BDDF362 /* Pods-SAModelSpace_Example */ = {
+		D42F09A88314E94C8053AF455F89D8D7 /* Pods-SAModelSpace_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 770109BB7A010A3AAD067DBAF4755C51 /* Build configuration list for PBXNativeTarget "Pods-SAModelSpace_Example" */;
+			buildConfigurationList = 37AEBC552D577A2FFF0E306C48FC14FA /* Build configuration list for PBXNativeTarget "Pods-SAModelSpace_Example" */;
 			buildPhases = (
-				612753057E299EC4C0682E353C436331 /* Sources */,
-				36DBDAA7A995E6757319845B14C96EBB /* Frameworks */,
-				271332305F416A05E2455E6DCC930CBD /* Headers */,
+				DD7610141162BD8CD3C5352C3A4FEF02 /* Sources */,
+				DFDB884BC61E4A551CFC19CEC29403B8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61C41BC4775D256FF80E4FEA0103691B /* PBXTargetDependency */,
-				B1C4F986BD18BFB1BDC4B8115B6AB080 /* PBXTargetDependency */,
+				71DEB2FAE02A830DA082E169B985A1E5 /* PBXTargetDependency */,
+				246C1EB56634DEEF5AA028131403ED07 /* PBXTargetDependency */,
 			);
 			name = "Pods-SAModelSpace_Example";
 			productName = "Pods-SAModelSpace_Example";
-			productReference = CF4BACBBCDEC304630BD5BEF740B31BC /* Pods_SAModelSpace_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 0EC7B4844294CD2E07ABD8EB97CDFD15 /* libPods-SAModelSpace_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		55DBA02FAA67FAA9D6CE68A37D3C09F9 /* SAJsonParser */ = {
+		DB23EB78BB2FD5834DFB37D884AF89F7 /* SAModelSpace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8D26DBFB272765D9DEA4FCCCBC58ACD /* Build configuration list for PBXNativeTarget "SAJsonParser" */;
+			buildConfigurationList = AF8D84D031F1167826C1815284C937E0 /* Build configuration list for PBXNativeTarget "SAModelSpace" */;
 			buildPhases = (
-				1AA72694F72B86216B4A4EDCDCF18022 /* Sources */,
-				051C9868F76D9E7A7B6EA31D42472E55 /* Frameworks */,
-				98920CF5D86693F4E2419D3BEE68E2FE /* Headers */,
+				6E4633044C6F7EC82C54B8E434C80D07 /* Sources */,
+				AE865A7978A9D2453ADD0F7AE8C363CB /* Frameworks */,
+				934E4CEF81FCCCB22179F301CBDCCD93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63AA22156598286CD5792B7224BC5052 /* PBXTargetDependency */,
+			);
+			name = SAModelSpace;
+			productName = SAModelSpace;
+			productReference = 07D508B5E174CF1C9C39157698C30E99 /* libSAModelSpace.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC0EDDC6F10F2B267DF4DA80145A48F8 /* SAJsonParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359154D7EF166F96A33F1676764FA936 /* Build configuration list for PBXNativeTarget "SAJsonParser" */;
+			buildPhases = (
+				C099C402C75C9500B32BD62AF45C4073 /* Sources */,
+				A7B791E14886093D272020495BBBA2AB /* Frameworks */,
+				71050811DE2EC6073655FD6D6F271669 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -454,43 +386,8 @@
 			);
 			name = SAJsonParser;
 			productName = SAJsonParser;
-			productReference = 7F08DE4E1A328E4E293911C166FEA457 /* SAJsonParser.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7C4B8FD8041FE42D6BD8957F87606C22 /* SAModelSpace */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 318FB4151DCFF35F5486C6C4CB878364 /* Build configuration list for PBXNativeTarget "SAModelSpace" */;
-			buildPhases = (
-				E38FC79770CA035260E642EBFDB15E88 /* Sources */,
-				A31C266D8EFB2C4AA137A90063AB6E37 /* Frameworks */,
-				B56967328AACDBC209D90D070B6B32EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53DF0B2AF8988B70F63DF760F5C796A8 /* PBXTargetDependency */,
-			);
-			name = SAModelSpace;
-			productName = SAModelSpace;
-			productReference = B67E58E9A2C59B4C30CAC6B9A37968D9 /* SAModelSpace.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		95974F2DE8DE3CDFF8FD377EF0B47C77 /* Pods-SAModelSpace_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56D57B8298054A5580A8CF139C960481 /* Build configuration list for PBXNativeTarget "Pods-SAModelSpace_Tests" */;
-			buildPhases = (
-				7E65C40D988386EECAD0B6C96EBD408A /* Sources */,
-				8A1A7C63E83CF61A28DF2C864B489509 /* Frameworks */,
-				C7EF59BFF80D7ED266E1F7BF92224E54 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-SAModelSpace_Tests";
-			productName = "Pods-SAModelSpace_Tests";
-			productReference = 23956F70A7834FB38FCDABD3462FBC5F /* Pods_SAModelSpace_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 395D3B75E54BB1B795141D8E74A8F654 /* libSAJsonParser.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -509,374 +406,79 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7ECA7CDED4D54570660D2AF2779DDBA1 /* Products */;
+			productRefGroup = 06E2ECD69297DC78F2DE3030CEFE99CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				553765A3446EB7383FAE9CCC4BDDF362 /* Pods-SAModelSpace_Example */,
-				95974F2DE8DE3CDFF8FD377EF0B47C77 /* Pods-SAModelSpace_Tests */,
-				55DBA02FAA67FAA9D6CE68A37D3C09F9 /* SAJsonParser */,
-				7C4B8FD8041FE42D6BD8957F87606C22 /* SAModelSpace */,
+				D42F09A88314E94C8053AF455F89D8D7 /* Pods-SAModelSpace_Example */,
+				EC0EDDC6F10F2B267DF4DA80145A48F8 /* SAJsonParser */,
+				DB23EB78BB2FD5834DFB37D884AF89F7 /* SAModelSpace */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AA72694F72B86216B4A4EDCDCF18022 /* Sources */ = {
+		6E4633044C6F7EC82C54B8E434C80D07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5FDB82722874B7EC6F49205CD1534A /* NSArray+SAJson.m in Sources */,
-				AC2FB20F9066D1ACD9D134534ECE40CD /* NSDictionary+SafeHandling.m in Sources */,
-				5A384ACF8909530AD27A17B5A084D862 /* NSDictionary+SAJson.m in Sources */,
-				902C35FEE4DAA5C1FC569BFEAE7FC77D /* SABaseObject.m in Sources */,
-				B4F20AA0C4A824895C9EE1EA65365419 /* SAJsonParser-dummy.m in Sources */,
+				0D553F68620AB218AD6F79E953A34AEF /* SAAd.m in Sources */,
+				B02BA367F62954836A545B73143C8C98 /* SACreative.m in Sources */,
+				0B107FE34129529D18A5890EAC5FA9CC /* SAData.m in Sources */,
+				3A6E1F1A0D38B5FFDBEE26604A3A95AF /* SADetails.m in Sources */,
+				8A59504DC715EF3C53AD7E23A652D7D1 /* SAModelSpace-dummy.m in Sources */,
+				12163664EA33ECFAC13455CBE51559B0 /* SAVASTAd.m in Sources */,
+				560D5F76B46DCD085942CFA2C487D907 /* SAVASTCreative.m in Sources */,
+				E7C67D3046CE43EDC82430F879573D96 /* SAVASTMediaFile.m in Sources */,
+				39C6D8969F0DC315D83E773C81949F07 /* SAVASTTracking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		612753057E299EC4C0682E353C436331 /* Sources */ = {
+		C099C402C75C9500B32BD62AF45C4073 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1F9432B4B798FA1546E1447FD044C7 /* Pods-SAModelSpace_Example-dummy.m in Sources */,
+				956EE2F12DCA4D6E3D7AC39028876914 /* NSArray+SAJson.m in Sources */,
+				0047A55E239DF5BA68D99801C677AA99 /* NSDictionary+SafeHandling.m in Sources */,
+				3254399FF475B5FE6D8162B257844D02 /* NSDictionary+SAJson.m in Sources */,
+				38AC83669A4C2F88CEB9C29C241D83A3 /* SABaseObject.m in Sources */,
+				64917569F3EB7FFC1B46531D04EE93DF /* SAJsonParser-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E65C40D988386EECAD0B6C96EBD408A /* Sources */ = {
+		DD7610141162BD8CD3C5352C3A4FEF02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61FC08FCD828515CC8C2915A872CAB77 /* Pods-SAModelSpace_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E38FC79770CA035260E642EBFDB15E88 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75C13A9CAFA80A285C367866212E8D6D /* SAAd.m in Sources */,
-				39F13F7B66587E60549C4BC399B2114A /* SACreative.m in Sources */,
-				629EBA8DBDC64FF1CE5141CA369BCBD2 /* SAData.m in Sources */,
-				65D293F4C403E3E81859FC8CC2CE5096 /* SADetails.m in Sources */,
-				07908E741A57F4615556A709E47938CD /* SAModelSpace-dummy.m in Sources */,
-				20AE1B222EC58F0E06A86A4E0AEA54D1 /* SAVASTAd.m in Sources */,
-				5D79FFB9E7DB9B76B0DDAF24C75673F9 /* SAVASTCreative.m in Sources */,
-				17ECDB1C67AA1007487FA247D58B46F9 /* SAVASTMediaFile.m in Sources */,
-				6B38A7A94CB1BDB6A6A24F98D6181300 /* SAVASTTracking.m in Sources */,
+				62BB99FB36EB89AD12ECA6710D7C6666 /* Pods-SAModelSpace_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53DF0B2AF8988B70F63DF760F5C796A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAJsonParser;
-			target = 55DBA02FAA67FAA9D6CE68A37D3C09F9 /* SAJsonParser */;
-			targetProxy = 73C30D49E57A233FBC046E98DADBF024 /* PBXContainerItemProxy */;
-		};
-		61C41BC4775D256FF80E4FEA0103691B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAJsonParser;
-			target = 55DBA02FAA67FAA9D6CE68A37D3C09F9 /* SAJsonParser */;
-			targetProxy = F9462F659C5A6D5BCF1ED18729596C30 /* PBXContainerItemProxy */;
-		};
-		B1C4F986BD18BFB1BDC4B8115B6AB080 /* PBXTargetDependency */ = {
+		246C1EB56634DEEF5AA028131403ED07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAModelSpace;
-			target = 7C4B8FD8041FE42D6BD8957F87606C22 /* SAModelSpace */;
-			targetProxy = 6C49B940FE443C9AABA345D378955022 /* PBXContainerItemProxy */;
+			target = DB23EB78BB2FD5834DFB37D884AF89F7 /* SAModelSpace */;
+			targetProxy = 051DC0BBF404E15D39CEF46A970882E0 /* PBXContainerItemProxy */;
+		};
+		63AA22156598286CD5792B7224BC5052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAJsonParser;
+			target = EC0EDDC6F10F2B267DF4DA80145A48F8 /* SAJsonParser */;
+			targetProxy = 2B251EFC67663581E41E22836109B9A8 /* PBXContainerItemProxy */;
+		};
+		71DEB2FAE02A830DA082E169B985A1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAJsonParser;
+			target = EC0EDDC6F10F2B267DF4DA80145A48F8 /* SAJsonParser */;
+			targetProxy = 24D602FABFFBF96FA68480B802151588 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		10C98AC5DA85BB154E1076BFCE62645D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB45F3A42D771424BD281CF5EA74DCB6 /* SAJsonParser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAJsonParser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAJsonParser/SAJsonParser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SAJsonParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		13879E279A14827330EEE4C73B9C02EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70B31C0BDAA42D4622B6858719D35A0F /* Pods-SAModelSpace_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SAModelSpace_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAModelSpace_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		24B8EB52D983255E6886145A696F8831 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07CAD47E44793CFE32804139DC85F685 /* Pods-SAModelSpace_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SAModelSpace_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAModelSpace_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4403A3C26BFE1B60FF1A970AE620174C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C0A0FCC65FF898BBBC52ABBE89C5093 /* SAModelSpace.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAModelSpace/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAModelSpace/SAModelSpace.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SAModelSpace;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		688C2C60747EE830C6C6C9EFDE6FD106 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 777366D8882B08FF0F4AC2C565DA9959 /* Pods-SAModelSpace_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SAModelSpace_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAModelSpace_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6D1A458B72F137830BA45EB2AEEDAFE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB45F3A42D771424BD281CF5EA74DCB6 /* SAJsonParser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAJsonParser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAJsonParser/SAJsonParser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SAJsonParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DE8EC1C92CAA07A2535FCD4AD13F2AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 249A35DE0538A7A41447745F00E896E4 /* Pods-SAModelSpace_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SAModelSpace_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAModelSpace_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DFC890277C479E43438D335D22CA563 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C0A0FCC65FF898BBBC52ABBE89C5093 /* SAModelSpace.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAModelSpace/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAModelSpace/SAModelSpace.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SAModelSpace;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		0BA08F52AF5955529B52639CEB57DAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -911,12 +513,176 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		42C229E6FBCB725E31F3389668AF257C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A94296B499C45F17C0E6DA889299D22 /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7107B52D33DDFB0057D055247EAE7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C75B550F43AAFDDA4F1358CC680A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06187E895C2305EB5405B4D962189E8 /* Pods-SAModelSpace_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A96434C2CFFE504B06FDA46D82B3B33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F6614F45A21D83BBCAC3F58E2B341 /* SAModelSpace.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB80EC6149D61F9597F1EB24B8B5703C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0F6614F45A21D83BBCAC3F58E2B341 /* SAModelSpace.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DC275C3BCDB03C5D3645DBF6156A23EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF6A445788E3D357121FE06BA6D3FB3 /* Pods-SAModelSpace_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFB7EA48FAD2328D2D0E2FA55A154A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A94296B499C45F17C0E6DA889299D22 /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -924,44 +690,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				0BA08F52AF5955529B52639CEB57DAAC /* Debug */,
+				7107B52D33DDFB0057D055247EAE7B41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		318FB4151DCFF35F5486C6C4CB878364 /* Build configuration list for PBXNativeTarget "SAModelSpace" */ = {
+		359154D7EF166F96A33F1676764FA936 /* Build configuration list for PBXNativeTarget "SAJsonParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DFC890277C479E43438D335D22CA563 /* Debug */,
-				4403A3C26BFE1B60FF1A970AE620174C /* Release */,
+				42C229E6FBCB725E31F3389668AF257C /* Debug */,
+				DFB7EA48FAD2328D2D0E2FA55A154A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56D57B8298054A5580A8CF139C960481 /* Build configuration list for PBXNativeTarget "Pods-SAModelSpace_Tests" */ = {
+		37AEBC552D577A2FFF0E306C48FC14FA /* Build configuration list for PBXNativeTarget "Pods-SAModelSpace_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE8EC1C92CAA07A2535FCD4AD13F2AA /* Debug */,
-				24B8EB52D983255E6886145A696F8831 /* Release */,
+				91C75B550F43AAFDDA4F1358CC680A9C /* Debug */,
+				DC275C3BCDB03C5D3645DBF6156A23EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		770109BB7A010A3AAD067DBAF4755C51 /* Build configuration list for PBXNativeTarget "Pods-SAModelSpace_Example" */ = {
+		AF8D84D031F1167826C1815284C937E0 /* Build configuration list for PBXNativeTarget "SAModelSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				688C2C60747EE830C6C6C9EFDE6FD106 /* Debug */,
-				13879E279A14827330EEE4C73B9C02EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B8D26DBFB272765D9DEA4FCCCBC58ACD /* Build configuration list for PBXNativeTarget "SAJsonParser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10C98AC5DA85BB154E1076BFCE62645D /* Debug */,
-				6D1A458B72F137830BA45EB2AEEDAFE2 /* Release */,
+				A96434C2CFFE504B06FDA46D82B3B33A /* Debug */,
+				BB80EC6149D61F9597F1EB24B8B5703C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

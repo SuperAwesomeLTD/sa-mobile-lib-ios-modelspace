@@ -1,6 +1,0 @@
-framework module SAModelSpace {
-  umbrella header "SAModelSpace-umbrella.h"
-
-  export *
-  module * { export * }
-}
