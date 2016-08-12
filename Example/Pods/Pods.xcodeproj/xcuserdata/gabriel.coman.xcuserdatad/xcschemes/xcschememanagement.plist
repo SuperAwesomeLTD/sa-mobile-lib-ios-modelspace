@@ -8,46 +8,19 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>SAJsonParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>SAModelSpace 2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>SAModelSpace.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>D42F09A88314E94C8053AF455F89D8D7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DB23EB78BB2FD5834DFB37D884AF89F7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EC0EDDC6F10F2B267DF4DA80145A48F8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
