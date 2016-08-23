@@ -42,4 +42,6 @@ typedef NS_ENUM(NSInteger, SAVASTAdType) {
 
 @property (nonatomic, strong) SACreative *creative;
 
+- (void) sumAd:(SAAd*) dest;
+
 @end

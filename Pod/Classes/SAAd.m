@@ -106,4 +106,17 @@
     return true;
 }
 
+- (void) sumAd:(SAAd*) dest {
+    if (dest.creative.clickUrl != NULL) {
+        self.creative.clickUrl = dest.creative.clickUrl;
+    }
+    
+    [self.creative.events addObjectsFromArray:dest.creative.events];
+    [self.creative.clicks addObjectsFromArray:dest.creative.clicks];
+    
+    if (dest.creative.details.media) {
+        self.creative.details.media = dest.creative.details.media;
+    }
+}
+
 @end
