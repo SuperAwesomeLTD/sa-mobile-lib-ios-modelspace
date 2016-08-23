@@ -23,7 +23,7 @@
         _playableDiskUrl = [jsonDictionary safeObjectForKey:@"playableDiskUrl"];
         _playableMediaUrl = [jsonDictionary safeObjectForKey:@"playableMediaUrl"];
         _type = [jsonDictionary safeObjectForKey:@"type"];
-        _isOnDisk = [jsonDictionary safeObjectForKey:@"isOnDisk"];
+        _isOnDisk = [[jsonDictionary safeObjectForKey:@"isOnDisk"] boolValue];
     }
     return self;
 }
