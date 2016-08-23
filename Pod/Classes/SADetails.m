@@ -14,7 +14,7 @@
 
 - (id) init {
     if (self = [super init]) {
-        
+        _media = [[SAMedia alloc] init];
     }
     return self;
 }

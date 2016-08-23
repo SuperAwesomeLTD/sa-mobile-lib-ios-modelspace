@@ -12,6 +12,11 @@
 
 #import "SAJsonParser.h"
 
+typedef NS_ENUM(NSInteger, SAVASTAdType) {
+    InLine = 0,
+    Wrapper = 1
+};
+
 // formward declarations
 @class SACreative;
 
@@ -30,6 +35,10 @@
 @property (nonatomic, assign) BOOL isHouse;
 @property (nonatomic, assign) BOOL safeAdApproved;
 @property (nonatomic, assign) BOOL showPadlock;
+
+@property (nonatomic, assign) BOOL isVAST;
+@property (nonatomic, assign) SAVASTAdType vastType;
+@property (nonatomic, strong) NSString *vastRedirect;
 
 @property (nonatomic, strong) SACreative *creative;
 

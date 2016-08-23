@@ -13,13 +13,13 @@
 #import "SATracking.h"
 
 // creative format typedef
-typedef enum SACreativeFormat {
+typedef NS_ENUM(NSInteger, SACreativeFormat) {
     invalid = -1,
     image = 0,
     video = 1,
     rich = 2,
     tag = 3
-}SACreativeFormat;
+};
 
 // forward declarations
 @class SADetails;
@@ -38,8 +38,8 @@ typedef enum SACreativeFormat {
 @property (nonatomic, assign) BOOL approved;
 @property (nonatomic, strong) NSString *customPayload;
 @property (nonatomic, strong) NSString *clickUrl;
-@property (nonatomic, strong) NSArray<SATracking*> *events;
-@property (nonatomic, strong) NSArray<SATracking*> *clicks;
+@property (nonatomic, strong) NSMutableArray<SATracking*> *events;
+@property (nonatomic, strong) NSMutableArray<SATracking*> *clicks;
 
 @property (nonatomic, strong) SADetails *details;
 

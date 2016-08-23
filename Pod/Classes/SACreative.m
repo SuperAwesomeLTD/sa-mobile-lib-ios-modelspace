@@ -16,7 +16,9 @@
 
 - (id) init {
     if (self = [super init]) {
-        
+        _details = [[SADetails alloc] init];
+        _events = [@[] mutableCopy];
+        _clicks = [@[] mutableCopy];
     }
     return self;
 }

@@ -20,7 +20,7 @@
 
 - (id) init {
     if (self = [super init]){
-    
+        _creative = [[SACreative alloc] init];
     }
     return self;
 }
@@ -41,6 +41,11 @@
         _isHouse = [[jsonDictionary safeObjectForKey:@"is_house"] boolValue];
         _safeAdApproved = [[jsonDictionary safeObjectForKey:@"safe_ad_approved"] boolValue];
         _showPadlock = [[jsonDictionary safeObjectForKey:@"show_padlock"] boolValue];
+        
+        _isVAST = [[jsonDictionary safeObjectForKey:@"isVAST"] boolValue];
+        _vastType = [[jsonDictionary safeObjectForKey:@"vastType"] integerValue];
+        _vastRedirect = [jsonDictionary safeObjectForKey:@"vastRedirect"];
+        
         _creative = [[SACreative alloc] initWithJsonDictionary:[jsonDictionary safeObjectForKey:@"creative"]];
     }
     
@@ -62,6 +67,9 @@
              @"is_house": @(_isHouse),
              @"safe_ad_approved": @(_safeAdApproved),
              @"show_padlock": @(_showPadlock),
+             @"isVAST": @(_isVAST),
+             @"vastType": @(_vastType),
+             @"vastRedirect": nullSafe(_vastRedirect),
              @"creative": nullSafe([_creative dictionaryRepresentation])
              };
 }
