@@ -15,7 +15,7 @@
 
 @interface SAResponse : SABaseObject <SASerializationProtocol, SADeserializationProtocol>
 
-@property (nonatomic, assign) NSINteger placementId;
+@property (nonatomic, assign) NSInteger placementId;
 @property (nonatomic, assign) SACreativeFormat format;
 @property (nonatomic, assign) NSInteger status;
 @property (nonatomic, strong) NSMutableArray<SAAd*> *ads;
