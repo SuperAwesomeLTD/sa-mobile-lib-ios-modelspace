@@ -13,6 +13,10 @@
 		1B4466EE1D6B70A8009F85F2 /* SATracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4466EC1D6B70A8009F85F2 /* SATracking.m */; };
 		1B4466F11D6B70CA009F85F2 /* SAMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4466EF1D6B70CA009F85F2 /* SAMedia.h */; };
 		1B4466F21D6B70CA009F85F2 /* SAMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4466F01D6B70CA009F85F2 /* SAMedia.m */; };
+		1BF4CADA1D9ABA84004DC4F8 /* SAResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4CAD81D9ABA84004DC4F8 /* SAResponse.h */; };
+		1BF4CADB1D9ABA84004DC4F8 /* SAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF4CAD91D9ABA84004DC4F8 /* SAResponse.m */; };
+		1BF4CADE1D9AC9A1004DC4F8 /* SACreativeFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4CADC1D9AC9A1004DC4F8 /* SACreativeFormat.h */; };
+		1BF4CAE21D9ACA08004DC4F8 /* SAVASTAdType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4CAE01D9ACA08004DC4F8 /* SAVASTAdType.h */; };
 		3254399FF475B5FE6D8162B257844D02 /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D756A43B62E196F404F040BE661DBE /* NSDictionary+SAJson.m */; };
 		38AC83669A4C2F88CEB9C29C241D83A3 /* SABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A8CD6FA7164BE2A9E86323936B9D36 /* SABaseObject.m */; };
 		3A6E1F1A0D38B5FFDBEE26604A3A95AF /* SADetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 686C1651457A38D3739815EB9BAA1E48 /* SADetails.m */; };
@@ -68,6 +72,10 @@
 		1B4466EC1D6B70A8009F85F2 /* SATracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATracking.m; sourceTree = "<group>"; };
 		1B4466EF1D6B70CA009F85F2 /* SAMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMedia.h; sourceTree = "<group>"; };
 		1B4466F01D6B70CA009F85F2 /* SAMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMedia.m; sourceTree = "<group>"; };
+		1BF4CAD81D9ABA84004DC4F8 /* SAResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAResponse.h; sourceTree = "<group>"; };
+		1BF4CAD91D9ABA84004DC4F8 /* SAResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAResponse.m; sourceTree = "<group>"; };
+		1BF4CADC1D9AC9A1004DC4F8 /* SACreativeFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SACreativeFormat.h; sourceTree = "<group>"; };
+		1BF4CAE01D9ACA08004DC4F8 /* SAVASTAdType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVASTAdType.h; sourceTree = "<group>"; };
 		1D3F8A718A40F65006E326BBAAAB76E3 /* SACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SACreative.h; sourceTree = "<group>"; };
 		1FBCE6F5061C6AE4954E126D5D0E57BE /* SABaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseObject.h; path = Pod/Classes/SABaseObject.h; sourceTree = "<group>"; };
 		283615D89C08C608DE17A8E8147A0BD4 /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
@@ -208,6 +216,8 @@
 		8ADE9A5571EC1E20E4237DF92577C52F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1BF4CAD81D9ABA84004DC4F8 /* SAResponse.h */,
+				1BF4CAD91D9ABA84004DC4F8 /* SAResponse.m */,
 				999021633ECB42DCBB9691C8801221F8 /* SAAd.h */,
 				F7A3688D0815A8EEDE28ACE9EEC7F396 /* SAAd.m */,
 				1D3F8A718A40F65006E326BBAAAB76E3 /* SACreative.h */,
@@ -218,6 +228,8 @@
 				1B4466EC1D6B70A8009F85F2 /* SATracking.m */,
 				1B4466EF1D6B70CA009F85F2 /* SAMedia.h */,
 				1B4466F01D6B70CA009F85F2 /* SAMedia.m */,
+				1BF4CADC1D9AC9A1004DC4F8 /* SACreativeFormat.h */,
+				1BF4CAE01D9ACA08004DC4F8 /* SAVASTAdType.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -307,8 +319,11 @@
 				80A5C569189BD9DFA411666345F212CA /* SAAd.h in Headers */,
 				80756970A50A5567399CE83455A37DA8 /* SACreative.h in Headers */,
 				1B4466F11D6B70CA009F85F2 /* SAMedia.h in Headers */,
+				1BF4CADA1D9ABA84004DC4F8 /* SAResponse.h in Headers */,
 				C71E0EF7E447D09B3082C877095FEE10 /* SADetails.h in Headers */,
+				1BF4CAE21D9ACA08004DC4F8 /* SAVASTAdType.h in Headers */,
 				1B4466ED1D6B70A8009F85F2 /* SATracking.h in Headers */,
+				1BF4CADE1D9AC9A1004DC4F8 /* SACreativeFormat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +421,7 @@
 				3A6E1F1A0D38B5FFDBEE26604A3A95AF /* SADetails.m in Sources */,
 				8A59504DC715EF3C53AD7E23A652D7D1 /* SAModelSpace-dummy.m in Sources */,
 				1B4466EE1D6B70A8009F85F2 /* SATracking.m in Sources */,
+				1BF4CADB1D9ABA84004DC4F8 /* SAResponse.m in Sources */,
 				1B4466F21D6B70CA009F85F2 /* SAMedia.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
