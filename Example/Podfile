@@ -2,4 +2,8 @@ platform :ios, '7.0'
 
 target 'SAModelSpace_Example' do
   pod 'SAModelSpace', :path => '../'
+  
+  target 'SAModelSpace_Tests' do
+      inherit! :search_paths
+  end
 end

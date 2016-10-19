@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		19FA3E8ECAE7E96B3D026FE7 /* libPods-SAModelSpace_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EDC038DC3A78E089F8D2DD /* libPods-SAModelSpace_Example.a */; };
+		1B0D3DE61DB63FC800599351 /* json1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE51DB63FC800599351 /* json1.json */; };
+		1B0D3DE81DB65A2200599351 /* json2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE71DB65A2200599351 /* json2.json */; };
+		1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE91DB65B0F00599351 /* json3.json */; };
+		1B0D3DED1DB65B3B00599351 /* json4.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEC1DB65B3B00599351 /* json4.json */; };
+		1B0D3DEF1DB65BA200599351 /* json5.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEE1DB65BA200599351 /* json5.json */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,7 +25,8 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6003F5BC195388D20070C39A /* SAModelSpace_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* SAModelSpace_Tests.m */; };
+		7E2BFCB3B62FF8E7805F0228 /* libPods-SAModelSpace_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 752A0BFF3E768659BD96A1F5 /* libPods-SAModelSpace_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1955AB6D5A2A3FCA51A98D4C /* Pods_SAModelSpace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAModelSpace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0D3DE51DB63FC800599351 /* json1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json1.json; sourceTree = "<group>"; };
+		1B0D3DE71DB65A2200599351 /* json2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json2.json; sourceTree = "<group>"; };
+		1B0D3DE91DB65B0F00599351 /* json3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json3.json; sourceTree = "<group>"; };
+		1B0D3DEC1DB65B3B00599351 /* json4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json4.json; sourceTree = "<group>"; };
+		1B0D3DEE1DB65BA200599351 /* json5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json5.json; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SAModelSpace_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAModelSpace_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,14 +63,17 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* SAModelSpace_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAModelSpace_Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		752A0BFF3E768659BD96A1F5 /* libPods-SAModelSpace_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C744E25B4F634DA442106E4 /* Pods-SAModelSpace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		89EFC1920C984B185EF6C594 /* Pods-SAModelSpace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B9B44402D53558F5DE852B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8F8DA12838229782A6358223 /* SAModelSpace.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SAModelSpace.podspec; path = ../SAModelSpace.podspec; sourceTree = "<group>"; };
 		940D91976CD366633EFAE994 /* Pods-SAModelSpace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7EDC038DC3A78E089F8D2DD /* libPods-SAModelSpace_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45011BDB17A18F4DC6AF336 /* Pods-SAModelSpace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E818488FFAA2B80EF0814E34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +96,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				7E2BFCB3B62FF8E7805F0228 /* libPods-SAModelSpace_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +108,22 @@
 			children = (
 				940D91976CD366633EFAE994 /* Pods-SAModelSpace_Example.debug.xcconfig */,
 				89EFC1920C984B185EF6C594 /* Pods-SAModelSpace_Example.release.xcconfig */,
+				7C744E25B4F634DA442106E4 /* Pods-SAModelSpace_Tests.debug.xcconfig */,
+				D45011BDB17A18F4DC6AF336 /* Pods-SAModelSpace_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B0D3DEB1DB65B1500599351 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				1B0D3DE51DB63FC800599351 /* json1.json */,
+				1B0D3DE71DB65A2200599351 /* json2.json */,
+				1B0D3DE91DB65B0F00599351 /* json3.json */,
+				1B0D3DEC1DB65B3B00599351 /* json4.json */,
+				1B0D3DEE1DB65BA200599351 /* json5.json */,
+			);
+			name = Datasource;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -126,8 +154,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1955AB6D5A2A3FCA51A98D4C /* Pods_SAModelSpace_Tests.framework */,
 				B7EDC038DC3A78E089F8D2DD /* libPods-SAModelSpace_Example.a */,
+				752A0BFF3E768659BD96A1F5 /* libPods-SAModelSpace_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,7 +189,8 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				1B0D3DEB1DB65B1500599351 /* Datasource */,
+				6003F5BB195388D20070C39A /* SAModelSpace_Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -241,6 +270,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Gabriel Coman";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DCC9L689QJ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -271,8 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				1B0D3DEF1DB65BA200599351 /* json5.json in Resources */,
+				1B0D3DE61DB63FC800599351 /* json1.json in Resources */,
+				1B0D3DE81DB65A2200599351 /* json2.json in Resources */,
+				1B0D3DED1DB65B3B00599351 /* json4.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				6003F5BC195388D20070C39A /* SAModelSpace_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DCC9L689QJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAModelSpace/SAModelSpace-Prefix.pch";
 				INFOPLIST_FILE = "SAModelSpace/SAModelSpace-Info.plist";
@@ -523,6 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = DCC9L689QJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAModelSpace/SAModelSpace-Prefix.pch";
 				INFOPLIST_FILE = "SAModelSpace/SAModelSpace-Info.plist";
@@ -535,6 +574,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C744E25B4F634DA442106E4 /* Pods-SAModelSpace_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -558,6 +598,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45011BDB17A18F4DC6AF336 /* Pods-SAModelSpace_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
