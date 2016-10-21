@@ -654,5 +654,145 @@
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
+- (void) testModelSpace6 {
+    // given
+    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"json6" ofType:@"json"];
+    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    
+    // when
+    NSInteger expected_error = 0;
+    NSInteger expected_advertiserId = 1;
+    NSInteger expected_publisherId = 1;
+    NSInteger expected_app = 1484;
+    NSInteger expected_lineItemId = 932;
+    NSInteger expected_campaignId = 0;
+    NSInteger expected_placementId = 481;
+    SACampaignType expected_campaignType = cpm;
+    NSString *expected_device = nil;
+    BOOL expected_test = false;
+    BOOL expected_isFallback = false;
+    BOOL expected_isFill = false;
+    BOOL expected_isHouse = false;
+    BOOL expected_safeAdApproved = true;
+    BOOL expected_showPadlock = true;
+    BOOL expected_isVAST = false;
+    SAVASTAdType expected_vastType = InLine;
+    NSString *expected_vastRedirect = nil;
+    
+    NSInteger expected_creative_id = 4907;
+    NSString *expected_creative_name = nil;
+    NSInteger expected_creative_cpm = 0;
+    NSString *expected_creative_format = @"video";
+    SACreativeFormat expected_creative_creativeFormat = video;
+    BOOL expected_creative_live = false;
+    BOOL expected_creative_approved = false;
+    NSString *expected_creative_customPayload = nil;
+    NSString *expected_creative_clickUrl = @"https://superawesome.tv";
+    NSString *expected_creative_installUrl = nil;
+    NSString *expected_creative_impressionUrl = nil;
+    NSString *expected_creative_bundleId = nil;
+    SATracking *t1 = [[SATracking alloc] init];
+    t1.event = @"impression";
+    t1.URL = @"https://ads.staging.superawesome.tv/v2/video/impression?placement=481&creative=4907&line_item=932&sdkVersion=ios_5.2.3&rnd=8832683&dauid=8798453893251470766&device=phone";
+    SATracking *t2 = [[SATracking alloc] init];
+    t2.event = @"impression";
+    t2.URL = @"https://ads.staging.superawesome.tv/v2/video/impression?placement=481&creative=4907&line_item=932&sdkVersion=ios_5.2.3&rnd=8832683&dauid=8798453893251470766&device=phone";
+    SATracking *t3 = [[SATracking alloc] init];
+    t3.event = @"err_impression";
+    t3.URL = @"https://ads.staging.superawesome.tv/v2/video/impression?placement=481&creative=4907&line_item=932&sdkVersion=ios_5.2.3&rnd=8832683&dauid=8798453893251470766&device=phone";
+    SATracking *t4 = [[SATracking alloc] init];
+    t4.event = @"err_impression";
+    t4.URL = @"https://ads.staging.superawesome.tv/v2/video/tracking?event=skip&placement=481&creative=4907&line_item=932&sdkVersion=ios_5.2.3&rnd=1570851&dauid=8798453893251470766&device=phone";
+    SATracking *t5 = [[SATracking alloc] init];
+    t5.event = @"err_impression";
+    t5.URL = @"https://ads.staging";
+    NSArray <SATracking*> *expected_creative_events = @[t1, t2, t3, t4, t5];
+    
+    NSInteger expected_details_width = 600;
+    NSInteger expected_details_height = 480;
+    NSString *expected_details_name = nil;
+    NSString *expected_details_placementFormat = @"video";
+    NSInteger expected_details_bitrate = 0;
+    NSInteger expected_details_duration = 32;
+    NSInteger expected_details_value = 0;
+    NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4";
+    NSString *expected_details_video = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4";
+    NSString *expected_details_tag = nil;
+    NSString *expected_details_zipFile = nil;
+    NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4";
+    NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/";
+    NSString *expected_details_vast = @"https://ads.staging.superawesome.tv/v2/video/vast/481/932/4907/?sdkVersion=ios_5.2.3&rnd=621706701&dauid=8798453893251470766&device=phone";
+    NSString *expected_details_transcodedVideos = nil;
+    
+    NSString *expected_media_html = nil;
+    NSString *expected_media_playableDiskUrl = @"samov_19410.mp4";
+    NSString *expected_media_playableMediaUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4";
+    NSString *expected_media_type = @"video/mp4";
+    BOOL expected_media_isOnDisk = true;
+    
+    // then
+    SAAd *result = [[SAAd alloc] initWithJsonString:given];
+    
+    // assert
+    XCTAssertNotNil(result);
+    XCTAssertEqual(result.error, expected_error);
+    XCTAssertEqual(result.advertiserId, expected_advertiserId);
+    XCTAssertEqual(result.publisherId, expected_publisherId);
+    XCTAssertEqual(result.app, expected_app);
+    XCTAssertEqual(result.lineItemId, expected_lineItemId);
+    XCTAssertEqual(result.campaignId, expected_campaignId);
+    XCTAssertEqual(result.placementId, expected_placementId);
+    XCTAssertEqual(result.campaignType, expected_campaignType);
+    XCTAssertEqualObjects(result.device, expected_device);
+    XCTAssertEqual(result.test, expected_test);
+    XCTAssertEqual(result.isFallback, expected_isFallback);
+    XCTAssertEqual(result.isFill, expected_isFill);
+    XCTAssertEqual(result.isHouse, expected_isHouse);
+    XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
+    XCTAssertEqual(result.showPadlock, expected_showPadlock);
+    XCTAssertEqual(result.isVAST, expected_isVAST);
+    XCTAssertEqual(result.vastType, expected_vastType);
+    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
+    
+    XCTAssertNotNil(result.creative);
+    XCTAssertEqual(result.creative._id, expected_creative_id);
+    XCTAssertEqualObjects(result.creative.name, expected_creative_name);
+    XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
+    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
+    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.live, expected_creative_live);
+    XCTAssertEqual(result.creative.approved, expected_creative_approved);
+    XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
+    XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
+    XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
+    XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
+    XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
+    XCTAssertEqual(result.creative.events.count, expected_creative_events.count);
+    
+    XCTAssertNotNil(result.creative.details);
+    XCTAssertEqual(result.creative.details.width, expected_details_width);
+    XCTAssertEqual(result.creative.details.height, expected_details_height);
+    XCTAssertEqualObjects(result.creative.details.name, expected_details_name);
+    XCTAssertEqualObjects(result.creative.details.placementFormat, expected_details_placementFormat);
+    XCTAssertEqual(result.creative.details.bitrate, expected_details_bitrate);
+    XCTAssertEqual(result.creative.details.duration, expected_details_duration);
+    XCTAssertEqual(result.creative.details.value, expected_details_value);
+    XCTAssertEqualObjects(result.creative.details.image, expected_details_image);
+    XCTAssertEqualObjects(result.creative.details.video, expected_details_video);
+    XCTAssertEqualObjects(result.creative.details.tag, expected_details_tag);
+    XCTAssertEqualObjects(result.creative.details.zipFile, expected_details_zipFile);
+    XCTAssertEqualObjects(result.creative.details.url, expected_details_url);
+    XCTAssertEqualObjects(result.creative.details.cdnUrl, expected_details_cdnUrl);
+    XCTAssertEqualObjects(result.creative.details.vast, expected_details_vast);
+    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
+    
+    XCTAssertNotNil(result.creative.details.media);
+    XCTAssertEqualObjects(result.creative.details.media.html, expected_media_html);
+    XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
+    XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
+    XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
+}
+
 @end
 

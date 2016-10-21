@@ -13,6 +13,7 @@
 		1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE91DB65B0F00599351 /* json3.json */; };
 		1B0D3DED1DB65B3B00599351 /* json4.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEC1DB65B3B00599351 /* json4.json */; };
 		1B0D3DEF1DB65BA200599351 /* json5.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEE1DB65BA200599351 /* json5.json */; };
+		1BC855431DBA5C9700763B9F /* json6.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC855421DBA5C9700763B9F /* json6.json */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -46,6 +47,7 @@
 		1B0D3DE91DB65B0F00599351 /* json3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json3.json; sourceTree = "<group>"; };
 		1B0D3DEC1DB65B3B00599351 /* json4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json4.json; sourceTree = "<group>"; };
 		1B0D3DEE1DB65BA200599351 /* json5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json5.json; sourceTree = "<group>"; };
+		1BC855421DBA5C9700763B9F /* json6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json6.json; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SAModelSpace_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAModelSpace_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 				1B0D3DE91DB65B0F00599351 /* json3.json */,
 				1B0D3DEC1DB65B3B00599351 /* json4.json */,
 				1B0D3DEE1DB65BA200599351 /* json5.json */,
+				1BC855421DBA5C9700763B9F /* json6.json */,
 			);
 			name = Datasource;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				1B0D3DE61DB63FC800599351 /* json1.json in Resources */,
 				1B0D3DE81DB65A2200599351 /* json2.json in Resources */,
 				1B0D3DED1DB65B3B00599351 /* json4.json in Resources */,
+				1BC855431DBA5C9700763B9F /* json6.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */,
