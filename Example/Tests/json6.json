@@ -47,6 +47,7 @@
                 "playableDiskUrl": "samov_19410.mp4",
                 "playableMediaUrl": "https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4",
                 "html": null,
+                "bitrate": 720,
                 "type": "video/mp4"
             },
             "name": null,

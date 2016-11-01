@@ -82,12 +82,12 @@
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/Jnit8s0LdkbOKbx6q6qn4A4jqMid2T4I.mp4";
     NSString *expected_details_cdnUrl = NULL;
     NSString *expected_details_vast = @"https://ads.staging.superawesome.tv/v2/video/vast/480/931/4906/?sdkVersion=unknown&rnd=434251983&device=web";
-    NSString *expected_details_transcodedVideos = nil;
     
     NSString *expected_media_html = NULL;
     NSString *expected_media_playableDiskUrl = NULL;
     NSString *expected_media_playableMediaUrl = NULL;
     NSString *expected_media_type = NULL;
+    NSInteger expected_media_bitrate = 0;
     BOOL expected_media_isOnDisk = false;
     
     // then
@@ -144,13 +144,13 @@
     XCTAssertEqualObjects(result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(result.creative.details.cdnUrl, expected_details_cdnUrl);
     XCTAssertEqualObjects(result.creative.details.vast, expected_details_vast);
-    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
     
     XCTAssertNotNil(result.creative.details.media);
     XCTAssertEqualObjects(result.creative.details.media.html, expected_media_html);
     XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
     XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
     XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.bitrate, expected_media_bitrate);
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
@@ -207,12 +207,12 @@
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/cvWABPEIS7vUEtlv5U17MwaTNhRARYjB.png";
     NSString *expected_details_cdnUrl = nil;
     NSString *expected_details_vast = nil;
-    NSString *expected_details_transcodedVideos = nil;
     
     NSString *expected_media_html = nil;
     NSString *expected_media_playableDiskUrl = nil;
     NSString *expected_media_playableMediaUrl = nil;
     NSString *expected_media_type = nil;
+    NSInteger expected_media_bitrate = 0;
     BOOL expected_media_isOnDisk = false;
     
     // then
@@ -269,13 +269,13 @@
     XCTAssertEqualObjects(result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(result.creative.details.cdnUrl, expected_details_cdnUrl);
     XCTAssertEqualObjects(result.creative.details.vast, expected_details_vast);
-    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
     
     XCTAssertNotNil(result.creative.details.media);
     XCTAssertEqualObjects(result.creative.details.media.html, expected_media_html);
     XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
     XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
     XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.bitrate, expected_media_bitrate);
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
@@ -332,12 +332,12 @@
     NSString *expected_details_url = nil;
     NSString *expected_details_cdnUrl = nil;
     NSString *expected_details_vast = nil;
-    NSString *expected_details_transcodedVideos = nil;
     
     NSString *expected_media_html = nil;
     NSString *expected_media_playableDiskUrl = nil;
     NSString *expected_media_playableMediaUrl = nil;
     NSString *expected_media_type = nil;
+    NSInteger expected_media_bitrate = 0;
     BOOL expected_media_isOnDisk = false;
     
     // then
@@ -394,13 +394,13 @@
     XCTAssertEqualObjects(result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(result.creative.details.cdnUrl, expected_details_cdnUrl);
     XCTAssertEqualObjects(result.creative.details.vast, expected_details_vast);
-    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
     
     XCTAssertNotNil(result.creative.details.media);
     XCTAssertEqualObjects(result.creative.details.media.html, expected_media_html);
     XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
     XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
     XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.bitrate, expected_media_bitrate);
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
@@ -457,12 +457,12 @@
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
     NSString *expected_details_cdnUrl = nil;
     NSString *expected_details_vast = nil;
-    NSString *expected_details_transcodedVideos = nil;
     
     NSString *expected_media_html = nil;
     NSString *expected_media_playableDiskUrl = nil;
     NSString *expected_media_playableMediaUrl = nil;
     NSString *expected_media_type = nil;
+    NSInteger expected_media_bitrate = 0;
     BOOL expected_media_isOnDisk = false;
     
     // then
@@ -503,7 +503,6 @@
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
-    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
     
     XCTAssertNotNil(result.creative.details);
     XCTAssertEqual(result.creative.details.width, expected_details_width);
@@ -526,6 +525,7 @@
     XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
     XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
     XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.bitrate, expected_media_bitrate);
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
@@ -582,12 +582,12 @@
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/iwPc7H9hU94gNhw8bx7SBgoQy0rUy3o5.jpg";
     NSString *expected_details_cdnUrl = nil;
     NSString *expected_details_vast = nil;
-    NSString *expected_details_transcodedVideos = nil;
     
     NSString *expected_media_html = nil;
     NSString *expected_media_playableDiskUrl = nil;
     NSString *expected_media_playableMediaUrl = nil;
     NSString *expected_media_type = nil;
+    NSInteger expected_media_bitrate = 0;
     BOOL expected_media_isOnDisk = false;
     
     // then
@@ -644,13 +644,13 @@
     XCTAssertEqualObjects(result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(result.creative.details.cdnUrl, expected_details_cdnUrl);
     XCTAssertEqualObjects(result.creative.details.vast, expected_details_vast);
-    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
     
     XCTAssertNotNil(result.creative.details.media);
     XCTAssertEqualObjects(result.creative.details.media.html, expected_media_html);
     XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
     XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
     XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.bitrate, expected_media_bitrate);
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
@@ -722,12 +722,12 @@
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4";
     NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/";
     NSString *expected_details_vast = @"https://ads.staging.superawesome.tv/v2/video/vast/481/932/4907/?sdkVersion=ios_5.2.3&rnd=621706701&dauid=8798453893251470766&device=phone";
-    NSString *expected_details_transcodedVideos = nil;
     
     NSString *expected_media_html = nil;
     NSString *expected_media_playableDiskUrl = @"samov_19410.mp4";
     NSString *expected_media_playableMediaUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/l2UWsR6EWLZ8amjR8dTierr9hNS1mkOP.mp4";
     NSString *expected_media_type = @"video/mp4";
+    NSInteger expected_media_bitrate = 720;
     BOOL expected_media_isOnDisk = true;
     
     // then
@@ -784,13 +784,13 @@
     XCTAssertEqualObjects(result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(result.creative.details.cdnUrl, expected_details_cdnUrl);
     XCTAssertEqualObjects(result.creative.details.vast, expected_details_vast);
-    XCTAssertEqualObjects(result.creative.details.transcodedVideos, expected_details_transcodedVideos);
     
     XCTAssertNotNil(result.creative.details.media);
     XCTAssertEqualObjects(result.creative.details.media.html, expected_media_html);
     XCTAssertEqualObjects(result.creative.details.media.playableDiskUrl, expected_media_playableDiskUrl);
     XCTAssertEqualObjects(result.creative.details.media.playableMediaUrl, expected_media_playableMediaUrl);
     XCTAssertEqualObjects(result.creative.details.media.type, expected_media_type);
+    XCTAssertEqual(result.creative.details.media.bitrate, expected_media_bitrate);
     XCTAssertEqual(result.creative.details.media.isOnDisk, expected_media_isOnDisk);
 }
 
