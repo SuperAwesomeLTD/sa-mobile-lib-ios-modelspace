@@ -1,6 +1,6 @@
 {
   "name": "SAModelSpace",
-  "version": "0.2.9",
+  "version": "0.3.3",
   "summary": "SAModelSpace contains the models for SuperAwesome",
   "description": "SAModelSpace contains all the required models for the SuperAwesome SDK.",
   "homepage": "https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-modelspace",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-modelspace.git",
-    "tag": "0.2.9"
+    "tag": "0.3.3"
   },
   "platforms": {
     "ios": "7.0"

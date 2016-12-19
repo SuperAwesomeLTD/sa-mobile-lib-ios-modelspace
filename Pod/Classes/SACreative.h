@@ -10,6 +10,11 @@
 
 #import <Foundation/Foundation.h>
 
+// forward decl
+@class SATracking;
+@class SADetails;
+
+// guarded import
 #if defined(__has_include)
 #if __has_include(<SAJsonParser/SAJsonParser.h>)
 #import <SAJsonParser/SAJsonParser.h>
@@ -18,9 +23,15 @@
 #endif
 #endif
 
-#import "SATracking.h"
-#import "SACreativeFormat.h"
-#import "SADetails.h"
+// creative format typedef
+typedef NS_ENUM(NSInteger, SACreativeFormat) {
+    invalid = -1,
+    image = 0,
+    video = 1,
+    rich = 2,
+    tag = 3,
+    gamewall = 4
+};
 
 // @brief:
 // The creative contains essential ad information like format, click url

@@ -1,6 +1,6 @@
 PODS:
   - SAJsonParser (1.2.9)
-  - SAModelSpace (0.2.9):
+  - SAModelSpace (0.3.3):
     - SAJsonParser (= 1.2.9)
 
 DEPENDENCIES:
@@ -12,8 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SAJsonParser: 82e10833541da2efe6f558ab3de327a597235ce4
-  SAModelSpace: d3bf0aca97fb7007ef9170f669f691544f0f2183
+  SAModelSpace: 2007cf4db27864d0e3f3c5edfccfff4590ae51f8
 
 PODFILE CHECKSUM: cf242523a8c3c6aa533c3ab1fcdb64b6ccd46e43
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0.beta.1

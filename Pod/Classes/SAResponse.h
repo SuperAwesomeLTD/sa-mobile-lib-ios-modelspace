@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+// forward declaration of SAAd
+@class SAAd;
+
+// guarded import
 #if defined(__has_include)
 #if __has_include(<SAJsonParser/SAJsonParser.h>)
 #import <SAJsonParser/SAJsonParser.h>
@@ -16,8 +20,8 @@
 #endif
 #endif
 
-#import "SACreativeFormat.h"
-#import "SAAd.h"
+// local import
+#import "SACreative.h"
 
 @interface SAResponse : SABaseObject <SASerializationProtocol, SADeserializationProtocol>
 
