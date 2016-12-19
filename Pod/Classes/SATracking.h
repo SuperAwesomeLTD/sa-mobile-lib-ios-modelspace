@@ -6,7 +6,13 @@
 //
 //
 
+#if defined(__has_include)
+#if __has_include(<SAJsonParser/SAJsonParser.h>)
+#import <SAJsonParser/SAJsonParser.h>
+#else
 #import "SAJsonParser.h"
+#endif
+#endif
 
 @interface SATracking : SABaseObject <SADeserializationProtocol, SASerializationProtocol>
 @property (nonatomic, strong) NSString *event;

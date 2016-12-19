@@ -8,7 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+#if defined(__has_include)
+#if __has_include(<SAJsonParser/SAJsonParser.h>)
+#import <SAJsonParser/SAJsonParser.h>
+#else
 #import "SAJsonParser.h"
+#endif
+#endif
+
 #import "SACreativeFormat.h"
 #import "SAAd.h"
 
