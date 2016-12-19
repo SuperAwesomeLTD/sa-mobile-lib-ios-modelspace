@@ -1,1 +1,0 @@
-../../../../../Pod/Classes/SAVASTAdType.h
