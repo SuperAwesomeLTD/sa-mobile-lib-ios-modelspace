@@ -18,6 +18,7 @@
     },
     "advertiserId": 1,
     "publisherId": 1,
+    "moat": 0.2,
     "is_fill": false,
     "is_fallback": false,
     "campaign_type": 0,

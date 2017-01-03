@@ -41,6 +41,7 @@
     NSInteger expected_app = 1484;
     NSInteger expected_lineItemId = 931;
     NSInteger expected_campaignId = 0;
+    CGFloat expected_moat = 0.2;
     NSInteger expected_placementId = 0;
     SACampaignType expected_campaignType = cpm;
     BOOL expected_test = false;
@@ -98,6 +99,7 @@
     XCTAssertEqual(result.error, expected_error);
     XCTAssertEqual(result.advertiserId, expected_advertiserId);
     XCTAssertEqual(result.publisherId, expected_publisherId);
+    XCTAssertEqualWithAccuracy(result.moat, expected_moat, 0.01);
     XCTAssertEqual(result.app, expected_app);
     XCTAssertEqual(result.lineItemId, expected_lineItemId);
     XCTAssertEqual(result.campaignId, expected_campaignId);
@@ -166,6 +168,7 @@
     NSInteger expected_app = 105;
     NSInteger expected_lineItemId = 138;
     NSInteger expected_campaignId = 117;
+    CGFloat expected_moat = 0.2;
     NSInteger expected_placementId = 0;
     SACampaignType expected_campaignType = cpm;
     NSString *expected_device = @"web";
@@ -224,6 +227,7 @@
     XCTAssertEqual(result.advertiserId, expected_advertiserId);
     XCTAssertEqual(result.publisherId, expected_publisherId);
     XCTAssertEqual(result.app, expected_app);
+    XCTAssertEqualWithAccuracy(result.moat, expected_moat, 0.01);
     XCTAssertEqual(result.lineItemId, expected_lineItemId);
     XCTAssertEqual(result.campaignId, expected_campaignId);
     XCTAssertEqual(result.placementId, expected_placementId);
@@ -292,6 +296,7 @@
     NSInteger expected_lineItemId = 141;
     NSInteger expected_campaignId = 117;
     NSInteger expected_placementId = 0;
+    CGFloat expected_moat = 0.5;
     SACampaignType expected_campaignType = cpm;
     NSString *expected_device = @"web";
     BOOL expected_test = false;
@@ -348,6 +353,7 @@
     XCTAssertEqual(result.error, expected_error);
     XCTAssertEqual(result.advertiserId, expected_advertiserId);
     XCTAssertEqual(result.publisherId, expected_publisherId);
+    XCTAssertEqualWithAccuracy(result.moat, expected_moat, 0.01);
     XCTAssertEqual(result.app, expected_app);
     XCTAssertEqual(result.lineItemId, expected_lineItemId);
     XCTAssertEqual(result.campaignId, expected_campaignId);
@@ -417,6 +423,7 @@
     NSInteger expected_lineItemId = 140;
     NSInteger expected_campaignId = 117;
     NSInteger expected_placementId = 0;
+    CGFloat expected_moat = 0.75;
     SACampaignType expected_campaignType = cpm;
     NSString *expected_device = @"web";
     BOOL expected_test = false;
@@ -475,6 +482,7 @@
     XCTAssertEqual(result.publisherId, expected_publisherId);
     XCTAssertEqual(result.app, expected_app);
     XCTAssertEqual(result.lineItemId, expected_lineItemId);
+    XCTAssertEqualWithAccuracy(result.moat, expected_moat, 0.01);
     XCTAssertEqual(result.campaignId, expected_campaignId);
     XCTAssertEqual(result.placementId, expected_placementId);
     XCTAssertEqual(result.campaignType, expected_campaignType);
@@ -542,6 +550,7 @@
     NSInteger expected_lineItemId = 673;
     NSInteger expected_campaignId = 556;
     NSInteger expected_placementId = 0;
+    CGFloat expected_moat = 1;
     SACampaignType expected_campaignType = cpi;
     NSString *expected_device = @"phone";
     BOOL expected_test = false;
@@ -599,6 +608,7 @@
     XCTAssertEqual(result.advertiserId, expected_advertiserId);
     XCTAssertEqual(result.publisherId, expected_publisherId);
     XCTAssertEqual(result.app, expected_app);
+    XCTAssertEqualWithAccuracy(result.moat, expected_moat, 0.01);
     XCTAssertEqual(result.lineItemId, expected_lineItemId);
     XCTAssertEqual(result.campaignId, expected_campaignId);
     XCTAssertEqual(result.placementId, expected_placementId);
@@ -667,6 +677,7 @@
     NSInteger expected_lineItemId = 932;
     NSInteger expected_campaignId = 0;
     NSInteger expected_placementId = 481;
+    CGFloat expected_moat = 0.2;
     SACampaignType expected_campaignType = cpm;
     NSString *expected_device = nil;
     BOOL expected_test = false;
@@ -739,6 +750,7 @@
     XCTAssertEqual(result.advertiserId, expected_advertiserId);
     XCTAssertEqual(result.publisherId, expected_publisherId);
     XCTAssertEqual(result.app, expected_app);
+    XCTAssertEqualWithAccuracy(result.moat, expected_moat, 0.01);
     XCTAssertEqual(result.lineItemId, expected_lineItemId);
     XCTAssertEqual(result.campaignId, expected_campaignId);
     XCTAssertEqual(result.placementId, expected_placementId);
