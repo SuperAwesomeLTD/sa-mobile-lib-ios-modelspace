@@ -1,0 +1,24 @@
+{
+    "vastRedirect": null,
+    "vastType": 1,
+    "mediaUrl": "https://ads.superawesome.tv/v2/demo_images/video.mp4",
+    "mediaList": [
+                  {
+                  "type": "video/mp4",
+                  "mediaUrl": "https://ads.superawesome.tv/v2/demo_images/video.mp4",
+                  "bitrate": 720,
+                  "width": 600,
+                  "height": 400
+                  }
+    ],
+    "vastEvents": [
+                   {
+                   "event": "creativeView",
+                   "URL":"https://ads.superawesome.tv/v2/video/tracking?event=creativeView&amp;placement=30479&amp;creative=-1&amp;line_item=-1&amp;sdkVersion=unknown&amp;rnd=4240693&amp;device=web&amp;country=GB"
+                   },
+                   {
+                   "event": "complete",
+                   "URL":"https://ads.superawesome.tv/v2/video/tracking?event=complete&amp;placement=30479&amp;creative=-1&amp;line_item=-1&amp;sdkVersion=unknown&amp;rnd=2312316&amp;device=web&amp;country=GB"
+                   }
+    ]
+}

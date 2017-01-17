@@ -8,7 +8,6 @@
 
 @import XCTest;
 
-// import ad
 #import "SAAd.h"
 #import "SACreative.h"
 #import "SADetails.h"
@@ -16,10 +15,10 @@
 #import "SAResponse.h"
 #import "SATracking.h"
 
-@interface SAModelSpace_Tests : XCTestCase
+@interface SAAds_Valid_ModelSpace_Tests : XCTestCase
 @end
 
-@implementation SAModelSpace_Tests
+@implementation SAAds_Valid_ModelSpace_Tests
 
 - (void) setUp {
     [super setUp];
@@ -43,23 +42,19 @@
     NSInteger expected_campaignId = 0;
     CGFloat expected_moat = 0.2;
     NSInteger expected_placementId = 0;
-    SACampaignType expected_campaignType = cpm;
+    SACampaignType expected_campaignType = SA_CPM;
     BOOL expected_test = false;
     BOOL expected_isFallback = false;
     BOOL expected_isFill = false;
     BOOL expected_isHouse = false;
     BOOL expected_safeAdApproved = true;
     BOOL expected_showPadlock = true;
-    BOOL expected_isVAST = false;
     NSString *expected_device = @"web";
-    SAVASTAdType expected_vastType = InLine;
-    NSString *expected_vastRedirect = NULL;
     
     NSInteger expected_creative_id = 4906;
     NSString *expected_creative_name = NULL;
     NSInteger expected_creative_cpm = 0;
-    NSString *expected_creative_format = @"video";
-    SACreativeFormat expected_creative_creativeFormat = invalid;
+    SACreativeFormat expected_creative_format = SA_Video;
     BOOL expected_creative_live = true;
     BOOL expected_creative_approved = true;
     NSString *expected_creative_customPayload = NULL;
@@ -112,16 +107,12 @@
     XCTAssertEqual(result.isHouse, expected_isHouse);
     XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
     XCTAssertEqual(result.showPadlock, expected_showPadlock);
-    XCTAssertEqual(result.isVAST, expected_isVAST);
-    XCTAssertEqual(result.vastType, expected_vastType);
-    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
     
     XCTAssertNotNil(result.creative);
     XCTAssertEqual(result.creative._id, expected_creative_id);
     XCTAssertEqualObjects(result.creative.name, expected_creative_name);
     XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
-    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
-    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.format, expected_creative_format);
     XCTAssertEqual(result.creative.live, expected_creative_live);
     XCTAssertEqual(result.creative.approved, expected_creative_approved);
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
@@ -170,7 +161,7 @@
     NSInteger expected_campaignId = 117;
     CGFloat expected_moat = 0.2;
     NSInteger expected_placementId = 0;
-    SACampaignType expected_campaignType = cpm;
+    SACampaignType expected_campaignType = SA_CPM;
     NSString *expected_device = @"web";
     BOOL expected_test = false;
     BOOL expected_isFallback = false;
@@ -178,15 +169,11 @@
     BOOL expected_isHouse = false;
     BOOL expected_safeAdApproved = true;
     BOOL expected_showPadlock = true;
-    BOOL expected_isVAST = false;
-    SAVASTAdType expected_vastType = InLine;
-    NSString *expected_vastRedirect = nil;
     
     NSInteger expected_creative_id = 114;
     NSString *expected_creative_name = @"Banner 1";
     NSInteger expected_creative_cpm = 0;
-    NSString *expected_creative_format = @"image_with_link";
-    SACreativeFormat expected_creative_creativeFormat = invalid;
+    SACreativeFormat expected_creative_format = SA_Image;
     BOOL expected_creative_live = true;
     BOOL expected_creative_approved = true;
     NSString *expected_creative_customPayload = nil;
@@ -239,16 +226,12 @@
     XCTAssertEqual(result.isHouse, expected_isHouse);
     XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
     XCTAssertEqual(result.showPadlock, expected_showPadlock);
-    XCTAssertEqual(result.isVAST, expected_isVAST);
-    XCTAssertEqual(result.vastType, expected_vastType);
-    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
     
     XCTAssertNotNil(result.creative);
     XCTAssertEqual(result.creative._id, expected_creative_id);
     XCTAssertEqualObjects(result.creative.name, expected_creative_name);
     XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
-    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
-    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.format, expected_creative_format);
     XCTAssertEqual(result.creative.live, expected_creative_live);
     XCTAssertEqual(result.creative.approved, expected_creative_approved);
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
@@ -297,7 +280,7 @@
     NSInteger expected_campaignId = 117;
     NSInteger expected_placementId = 0;
     CGFloat expected_moat = 0.5;
-    SACampaignType expected_campaignType = cpm;
+    SACampaignType expected_campaignType = SA_CPM;
     NSString *expected_device = @"web";
     BOOL expected_test = false;
     BOOL expected_isFallback = false;
@@ -305,15 +288,11 @@
     BOOL expected_isHouse = false;
     BOOL expected_safeAdApproved = true;
     BOOL expected_showPadlock = true;
-    BOOL expected_isVAST = false;
-    SAVASTAdType expected_vastType = InLine;
-    NSString *expected_vastRedirect = nil;
     
     NSInteger expected_creative_id = 127;
     NSString *expected_creative_name = @"Interstitial 3-1";
     NSInteger expected_creative_cpm = 0;
-    NSString *expected_creative_format = @"tag";
-    SACreativeFormat expected_creative_creativeFormat = invalid;
+    SACreativeFormat expected_creative_format = SA_Tag;
     BOOL expected_creative_live = true;
     BOOL expected_creative_approved = true;
     NSString *expected_creative_customPayload = nil;
@@ -366,16 +345,12 @@
     XCTAssertEqual(result.isHouse, expected_isHouse);
     XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
     XCTAssertEqual(result.showPadlock, expected_showPadlock);
-    XCTAssertEqual(result.isVAST, expected_isVAST);
-    XCTAssertEqual(result.vastType, expected_vastType);
-    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
     
     XCTAssertNotNil(result.creative);
     XCTAssertEqual(result.creative._id, expected_creative_id);
     XCTAssertEqualObjects(result.creative.name, expected_creative_name);
     XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
-    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
-    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.format, expected_creative_format);
     XCTAssertEqual(result.creative.live, expected_creative_live);
     XCTAssertEqual(result.creative.approved, expected_creative_approved);
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
@@ -424,7 +399,7 @@
     NSInteger expected_campaignId = 117;
     NSInteger expected_placementId = 0;
     CGFloat expected_moat = 0.75;
-    SACampaignType expected_campaignType = cpm;
+    SACampaignType expected_campaignType = SA_CPM;
     NSString *expected_device = @"web";
     BOOL expected_test = false;
     BOOL expected_isFallback = false;
@@ -432,15 +407,11 @@
     BOOL expected_isHouse = false;
     BOOL expected_safeAdApproved = true;
     BOOL expected_showPadlock = true;
-    BOOL expected_isVAST = false;
-    SAVASTAdType expected_vastType = InLine;
-    NSString *expected_vastRedirect = nil;
     
     NSInteger expected_creative_id = 116;
     NSString *expected_creative_name = @"Interstitial 2";
     NSInteger expected_creative_cpm = 0;
-    NSString *expected_creative_format = @"rich_media";
-    SACreativeFormat expected_creative_creativeFormat = invalid;
+    SACreativeFormat expected_creative_format = SA_Rich;
     BOOL expected_creative_live = true;
     BOOL expected_creative_approved = true;
     NSString *expected_creative_customPayload = nil;
@@ -493,16 +464,12 @@
     XCTAssertEqual(result.isHouse, expected_isHouse);
     XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
     XCTAssertEqual(result.showPadlock, expected_showPadlock);
-    XCTAssertEqual(result.isVAST, expected_isVAST);
-    XCTAssertEqual(result.vastType, expected_vastType);
-    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
     
     XCTAssertNotNil(result.creative);
     XCTAssertEqual(result.creative._id, expected_creative_id);
     XCTAssertEqualObjects(result.creative.name, expected_creative_name);
     XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
-    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
-    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.format, expected_creative_format);
     XCTAssertEqual(result.creative.live, expected_creative_live);
     XCTAssertEqual(result.creative.approved, expected_creative_approved);
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
@@ -551,7 +518,7 @@
     NSInteger expected_campaignId = 556;
     NSInteger expected_placementId = 0;
     CGFloat expected_moat = 1;
-    SACampaignType expected_campaignType = cpi;
+    SACampaignType expected_campaignType = SA_CPI;
     NSString *expected_device = @"phone";
     BOOL expected_test = false;
     BOOL expected_isFallback = false;
@@ -559,15 +526,11 @@
     BOOL expected_isHouse = false;
     BOOL expected_safeAdApproved = true;
     BOOL expected_showPadlock = true;
-    BOOL expected_isVAST = false;
-    SAVASTAdType expected_vastType = InLine;
-    NSString *expected_vastRedirect = nil;
     
     NSInteger expected_creative_id = 1051;
     NSString *expected_creative_name = @"CPI Gab iOS Banner";
     NSInteger expected_creative_cpm = 0;
-    NSString *expected_creative_format = @"image_with_link";
-    SACreativeFormat expected_creative_creativeFormat = invalid;
+    SACreativeFormat expected_creative_format = SA_Image;
     BOOL expected_creative_live = true;
     BOOL expected_creative_approved = true;
     NSString *expected_creative_customPayload = nil;
@@ -620,16 +583,12 @@
     XCTAssertEqual(result.isHouse, expected_isHouse);
     XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
     XCTAssertEqual(result.showPadlock, expected_showPadlock);
-    XCTAssertEqual(result.isVAST, expected_isVAST);
-    XCTAssertEqual(result.vastType, expected_vastType);
-    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
     
     XCTAssertNotNil(result.creative);
     XCTAssertEqual(result.creative._id, expected_creative_id);
     XCTAssertEqualObjects(result.creative.name, expected_creative_name);
     XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
-    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
-    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.format,  expected_creative_format);
     XCTAssertEqual(result.creative.live, expected_creative_live);
     XCTAssertEqual(result.creative.approved, expected_creative_approved);
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
@@ -678,7 +637,7 @@
     NSInteger expected_campaignId = 0;
     NSInteger expected_placementId = 481;
     CGFloat expected_moat = 0.2;
-    SACampaignType expected_campaignType = cpm;
+    SACampaignType expected_campaignType = SA_CPM;
     NSString *expected_device = nil;
     BOOL expected_test = false;
     BOOL expected_isFallback = false;
@@ -686,15 +645,11 @@
     BOOL expected_isHouse = false;
     BOOL expected_safeAdApproved = true;
     BOOL expected_showPadlock = true;
-    BOOL expected_isVAST = false;
-    SAVASTAdType expected_vastType = InLine;
-    NSString *expected_vastRedirect = nil;
     
     NSInteger expected_creative_id = 4907;
     NSString *expected_creative_name = nil;
     NSInteger expected_creative_cpm = 0;
-    NSString *expected_creative_format = @"video";
-    SACreativeFormat expected_creative_creativeFormat = video;
+    SACreativeFormat expected_creative_format = SA_Video;
     BOOL expected_creative_live = false;
     BOOL expected_creative_approved = false;
     NSString *expected_creative_customPayload = nil;
@@ -762,16 +717,12 @@
     XCTAssertEqual(result.isHouse, expected_isHouse);
     XCTAssertEqual(result.safeAdApproved, expected_safeAdApproved);
     XCTAssertEqual(result.showPadlock, expected_showPadlock);
-    XCTAssertEqual(result.isVAST, expected_isVAST);
-    XCTAssertEqual(result.vastType, expected_vastType);
-    XCTAssertEqualObjects(result.vastRedirect, expected_vastRedirect);
     
     XCTAssertNotNil(result.creative);
     XCTAssertEqual(result.creative._id, expected_creative_id);
     XCTAssertEqualObjects(result.creative.name, expected_creative_name);
     XCTAssertEqual(result.creative.cpm, expected_creative_cpm);
-    XCTAssertEqualObjects(result.creative.format, expected_creative_format);
-    XCTAssertEqual(result.creative.creativeFormat,  expected_creative_creativeFormat);
+    XCTAssertEqual(result.creative.format, expected_creative_format);
     XCTAssertEqual(result.creative.live, expected_creative_live);
     XCTAssertEqual(result.creative.approved, expected_creative_approved);
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
