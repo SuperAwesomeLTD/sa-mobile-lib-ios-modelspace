@@ -76,7 +76,7 @@
     NSString *expected_details_tag = NULL;
     NSString *expected_details_zipFile = NULL;
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/Jnit8s0LdkbOKbx6q6qn4A4jqMid2T4I.mp4";
-    NSString *expected_details_cdnUrl = NULL;
+    NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/";
     NSString *expected_details_vast = @"https://ads.staging.superawesome.tv/v2/video/vast/480/931/4906/?sdkVersion=unknown&rnd=434251983&device=web";
     
     NSString *expected_media_html = NULL;
@@ -195,7 +195,7 @@
     NSString *expected_details_tag = nil;
     NSString *expected_details_zipFile = nil;
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/cvWABPEIS7vUEtlv5U17MwaTNhRARYjB.png";
-    NSString *expected_details_cdnUrl = nil;
+    NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/";
     NSString *expected_details_vast = nil;
     
     NSString *expected_media_html = nil;
@@ -433,7 +433,7 @@
     NSString *expected_details_tag = nil;
     NSString *expected_details_zipFile = nil;
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
-    NSString *expected_details_cdnUrl = nil;
+    NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/";
     NSString *expected_details_vast = nil;
     
     NSString *expected_media_html = nil;
@@ -552,7 +552,7 @@
     NSString *expected_details_tag = nil;
     NSString *expected_details_zipFile = nil;
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/iwPc7H9hU94gNhw8bx7SBgoQy0rUy3o5.jpg";
-    NSString *expected_details_cdnUrl = nil;
+    NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/";
     NSString *expected_details_vast = nil;
     
     NSString *expected_media_html = nil;

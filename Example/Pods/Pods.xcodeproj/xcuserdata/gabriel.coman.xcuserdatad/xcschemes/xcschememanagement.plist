@@ -8,49 +8,46 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>Pods-SAModelSpace_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>SAJsonParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>SAModelSpace 2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>SAModelSpace.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
+		</dict>
+		<key>SAUtils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>67DC3D87667F2AD0F66ADB2EE3C9C773</key>
+		<key>0215E3BC091C714B0C6DB7DBA1FD661D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8712D2AACBE82B563D5992483816170D</key>
+		<key>1C28A69C9D6A2CD81E4602668C15E650</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ABB00576AA03550B502624EF3437D5D9</key>
+		<key>5431B7BE1015F1D1DBBC7469D39BB249</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1C2E6852D694451E159540BEBFC5698</key>
 		<dict>
 			<key>primary</key>
 			<true/>
