@@ -124,7 +124,7 @@
     XCTAssertFalse([ad isValid]);
     
     NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_Invalid;
+    SAVASTAdType expected_vastType = SA_Invalid_VAST;
     NSString *expected_mediaUrl = nil;
     int expected_medias = 0;
     int expected_events = 0;
@@ -149,7 +149,7 @@
     XCTAssertTrue([ad isValid]);
     
     NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_InLine;
+    SAVASTAdType expected_vastType = SA_InLine_VAST;
     NSString *expected_mediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
     int expected_medias = 1;
     int expected_events = 2;
@@ -182,7 +182,7 @@
     XCTAssertTrue([ad isValid]);
     
     NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_Wrapper;
+    SAVASTAdType expected_vastType = SA_Wrapper_VAST;
     NSString *expected_mediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
     int expected_medias = 2;
     int expected_events = 3;
@@ -215,7 +215,7 @@
     XCTAssertFalse([ad isValid]);
     
     NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_Invalid;
+    SAVASTAdType expected_vastType = SA_Invalid_VAST;
     NSString *expected_mediaUrl = nil;
     int expected_medias = 0;
     int expected_events = 0;
