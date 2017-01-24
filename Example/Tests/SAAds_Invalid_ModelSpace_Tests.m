@@ -88,6 +88,7 @@
     
     // assert
     XCTAssertNotNil(result);
+    XCTAssertFalse([result isValid]);
     XCTAssertEqual(result.error, expected_error);
     XCTAssertEqual(result.advertiserId, expected_advertiserId);
     XCTAssertEqual(result.publisherId, expected_publisherId);
