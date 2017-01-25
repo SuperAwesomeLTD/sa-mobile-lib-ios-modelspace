@@ -8,6 +8,7 @@
         "format": "tag",
         "impressionUrl": null,
         "installUrl": null,
+        "clickCounterUrl": null,
         "details": {
             "url": null,
             "image": null,

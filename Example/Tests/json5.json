@@ -9,6 +9,7 @@
         "impressionUrl": null,
         "installUrl": null,
         "clickUrl": "http://theguardian.com",
+        "clickCounterUrl": "https://superawesome.tv/click_counter",
         "details": {
             "url": "https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/iwPc7H9hU94gNhw8bx7SBgoQy0rUy3o5.jpg",
             "image": "https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/iwPc7H9hU94gNhw8bx7SBgoQy0rUy3o5.jpg",

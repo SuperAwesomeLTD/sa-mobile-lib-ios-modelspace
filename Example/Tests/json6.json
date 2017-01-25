@@ -29,6 +29,7 @@
         "approved": false,
         "installUrl": null,
         "click_url": "https://superawesome.tv",
+        "clickCounterUrl": "https://superawesome.tv/click_counter",
         "details": {
             "vast": "https://ads.staging.superawesome.tv/v2/video/vast/481/932/4907/?sdkVersion=ios_5.2.3&rnd=621706701&dauid=8798453893251470766&device=phone",
             "width": 600,

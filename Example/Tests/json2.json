@@ -9,6 +9,7 @@
         "impressionUrl": "http://superawesome.tv",
         "installUrl": null,
         "clickUrl": "http://superawesome.tv",
+        "clickCounterUrl": "https://superawesome.tv/click_counter",
         "details": {
             "url": "https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/cvWABPEIS7vUEtlv5U17MwaTNhRARYjB.png",
             "image": "https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/cvWABPEIS7vUEtlv5U17MwaTNhRARYjB.png",

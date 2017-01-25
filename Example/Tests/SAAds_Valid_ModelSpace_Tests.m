@@ -60,6 +60,7 @@
     NSString *expected_creative_customPayload = NULL;
     NSString *expected_creative_clickUrl = @"https://superawesome.tv";
     NSString *expected_creative_installUrl = NULL;
+    NSString *expected_creative_clickCounterUrl = NULL;
     NSString *expected_creative_impressionUrl = NULL;
     NSString *expected_creative_bundleId = NULL;
     NSArray <SATracking*> *expected_creative_events = @[];
@@ -118,6 +119,7 @@
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
@@ -179,6 +181,7 @@
     NSString *expected_creative_customPayload = nil;
     NSString *expected_creative_clickUrl = @"http://superawesome.tv";
     NSString *expected_creative_installUrl = nil;
+    NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
     NSString *expected_creative_impressionUrl = @"http://superawesome.tv";
     NSString *expected_creative_bundleId = nil;
     NSArray <SATracking*> *expected_creative_events = @[];
@@ -238,6 +241,7 @@
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
     
@@ -299,6 +303,7 @@
     NSString *expected_creative_clickUrl = nil;
     NSString *expected_creative_installUrl = nil;
     NSString *expected_creative_impressionUrl = nil;
+    NSString *expected_creative_clickCounterUrl = nil;
     NSString *expected_creative_bundleId = nil;
     NSArray <SATracking*> *expected_creative_events = @[];
     
@@ -356,6 +361,7 @@
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
@@ -418,6 +424,7 @@
     NSString *expected_creative_clickUrl = @"http://superawesome.tv";
     NSString *expected_creative_installUrl = nil;
     NSString *expected_creative_impressionUrl = @"http://superawesome.tv";
+    NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
     NSString *expected_creative_bundleId = nil;
     NSArray <SATracking*> *expected_creative_events = @[];
     
@@ -475,6 +482,7 @@
     XCTAssertEqualObjects(result.creative.customPayload, expected_creative_customPayload);
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
@@ -537,6 +545,7 @@
     NSString *expected_creative_clickUrl = @"http://theguardian.com";
     NSString *expected_creative_installUrl = nil;
     NSString *expected_creative_impressionUrl = nil;
+    NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
     NSString *expected_creative_bundleId = @"tv.superawesome.KWSDemo";
     NSArray <SATracking*> *expected_creative_events = @[];
     
@@ -595,6 +604,7 @@
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
     
@@ -656,6 +666,7 @@
     NSString *expected_creative_clickUrl = @"https://superawesome.tv";
     NSString *expected_creative_installUrl = nil;
     NSString *expected_creative_impressionUrl = nil;
+    NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
     NSString *expected_creative_bundleId = nil;
     SATracking *t1 = [[SATracking alloc] init];
     t1.event = @"impression";
@@ -729,6 +740,7 @@
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqual(result.creative.events.count, expected_creative_events.count);
     

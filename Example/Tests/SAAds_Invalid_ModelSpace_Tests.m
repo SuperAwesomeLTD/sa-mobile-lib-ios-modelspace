@@ -57,6 +57,7 @@
     NSString *expected_creative_customPayload = nil;
     NSString *expected_creative_clickUrl = nil;
     NSString *expected_creative_installUrl = nil;
+    NSString *expected_creative_clickCounterUrl = nil;
     NSString *expected_creative_impressionUrl = nil;
     NSString *expected_creative_bundleId = nil;
     NSArray <SATracking*> *expected_creative_events = @[];
@@ -117,6 +118,7 @@
     XCTAssertEqualObjects(result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(result.creative.installUrl, expected_creative_installUrl);
     XCTAssertEqualObjects(result.creative.impressionUrl, expected_creative_impressionUrl);
+    XCTAssertEqualObjects(result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(result.creative.bundleId, expected_creative_bundleId);
     XCTAssertEqualObjects(result.creative.events, expected_creative_events);
     
