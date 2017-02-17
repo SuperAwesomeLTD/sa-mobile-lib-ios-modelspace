@@ -35,13 +35,13 @@
     XCTAssertNotNil(media);
     
     NSString *expected_type = @"video/mp4";
-    NSString *expected_mediaUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/c0sKSRTuPu8dDkok2HQTnLS1k3A6vL6c.mp4";
+    NSString *expected_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/c0sKSRTuPu8dDkok2HQTnLS1k3A6vL6c.mp4";
     int expected_bitrate = 720;
     int expected_width = 600;
     int expected_height = 480;
     
     XCTAssertEqualObjects(expected_type, media.type);
-    XCTAssertEqualObjects(expected_mediaUrl, media.mediaUrl);
+    XCTAssertEqualObjects(expected_url, media.url);
     XCTAssertEqual(expected_bitrate, media.bitrate);
     XCTAssertEqual(expected_width, media.width);
     XCTAssertEqual(expected_height, media.height);
@@ -58,13 +58,13 @@
     XCTAssertNotNil(media);
     
     NSString *expected_type = @"video/mp4";
-    NSString *expected_mediaUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/c0sKSRTuPu8dDkok2HQTnLS1k3A6vL6c.mp4";
+    NSString *expected_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/c0sKSRTuPu8dDkok2HQTnLS1k3A6vL6c.mp4";
     int expected_bitrate = 0;
     int expected_width = 0;
     int expected_height = 480;
     
     XCTAssertEqualObjects(expected_type, media.type);
-    XCTAssertEqualObjects(expected_mediaUrl, media.mediaUrl);
+    XCTAssertEqualObjects(expected_url, media.url);
     XCTAssertEqual(expected_bitrate, media.bitrate);
     XCTAssertEqual(expected_width, media.width);
     XCTAssertEqual(expected_height, media.height);
@@ -81,13 +81,13 @@
     XCTAssertNotNil(media);
     
     NSString *expected_type = nil;
-    NSString *expected_mediaUrl = nil;
+    NSString *expected_url = nil;
     int expected_bitrate = 0;
     int expected_width = 0;
     int expected_height = 0;
     
     XCTAssertEqualObjects(expected_type, media.type);
-    XCTAssertEqualObjects(expected_mediaUrl, media.mediaUrl);
+    XCTAssertEqualObjects(expected_url, media.url);
     XCTAssertEqual(expected_bitrate, media.bitrate);
     XCTAssertEqual(expected_width, media.width);
     XCTAssertEqual(expected_height, media.height);
@@ -100,13 +100,13 @@
     XCTAssertNotNil(media);
     
     NSString *expected_type = nil;
-    NSString *expected_mediaUrl = nil;
+    NSString *expected_url = nil;
     int expected_bitrate = 0;
     int expected_width = 0;
     int expected_height = 0;
     
     XCTAssertEqualObjects(expected_type, media.type);
-    XCTAssertEqualObjects(expected_mediaUrl, media.mediaUrl);
+    XCTAssertEqualObjects(expected_url, media.url);
     XCTAssertEqual(expected_bitrate, media.bitrate);
     XCTAssertEqual(expected_width, media.width);
     XCTAssertEqual(expected_height, media.height);
@@ -123,19 +123,19 @@
     XCTAssertNotNil(ad);
     XCTAssertFalse([ad isValid]);
     
-    NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_Invalid_VAST;
-    NSString *expected_mediaUrl = nil;
+    NSString *expected_redirect = nil;
+    SAVASTAdType expected_type = SA_Invalid_VAST;
+    NSString *expected_url = nil;
     int expected_medias = 0;
     int expected_events = 0;
     
-    XCTAssertEqualObjects(expected_vastRedirect, ad.vastRedirect);
-    XCTAssertEqual(expected_vastType, ad.vastType);
-    XCTAssertEqualObjects(expected_mediaUrl, ad.mediaUrl);
-    XCTAssertNotNil([ad mediaList]);
-    XCTAssertEqual(expected_medias, [[ad mediaList] count]);
-    XCTAssertNotNil([ad vastEvents]);
-    XCTAssertEqual(expected_events, [[ad vastEvents] count]);
+    XCTAssertEqualObjects(expected_redirect, ad.redirect);
+    XCTAssertEqual(expected_type, ad.type);
+    XCTAssertEqualObjects(expected_url, ad.url);
+    XCTAssertNotNil([ad media]);
+    XCTAssertEqual(expected_medias, [[ad media] count]);
+    XCTAssertNotNil([ad events]);
+    XCTAssertEqual(expected_events, [[ad events] count]);
 }
 
 - (void) testVASTMedia6 {
@@ -148,25 +148,25 @@
     XCTAssertNotNil(ad);
     XCTAssertTrue([ad isValid]);
     
-    NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_InLine_VAST;
-    NSString *expected_mediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+    NSString *expected_redirect = nil;
+    SAVASTAdType expected_type = SA_InLine_VAST;
+    NSString *expected_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
     int expected_medias = 1;
     int expected_events = 2;
     
-    XCTAssertEqualObjects(expected_vastRedirect, ad.vastRedirect);
-    XCTAssertEqual(expected_vastType, ad.vastType);
-    XCTAssertEqualObjects(expected_mediaUrl, ad.mediaUrl);
-    XCTAssertNotNil([ad mediaList]);
-    XCTAssertEqual(expected_medias, [[ad mediaList] count]);
-    XCTAssertNotNil([ad vastEvents]);
-    XCTAssertEqual(expected_events, [[ad vastEvents] count]);
+    XCTAssertEqualObjects(expected_redirect, ad.redirect);
+    XCTAssertEqual(expected_type, ad.type);
+    XCTAssertEqualObjects(expected_url, ad.url);
+    XCTAssertNotNil([ad media]);
+    XCTAssertEqual(expected_medias, [[ad media] count]);
+    XCTAssertNotNil([ad events]);
+    XCTAssertEqual(expected_events, [[ad events] count]);
     
-    for (SATracking *tracking in [ad vastEvents]) {
+    for (SATracking *tracking in [ad events]) {
         XCTAssertTrue([tracking isValid]);
     }
     
-    for (SAVASTMedia *media in [ad mediaList]) {
+    for (SAVASTMedia *media in [ad media]) {
         XCTAssertTrue([media isValid]);
     }
 }
@@ -181,25 +181,25 @@
     XCTAssertNotNil(ad);
     XCTAssertTrue([ad isValid]);
     
-    NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_Wrapper_VAST;
-    NSString *expected_mediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+    NSString *expected_redirect = nil;
+    SAVASTAdType expected_type = SA_Wrapper_VAST;
+    NSString *expected_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
     int expected_medias = 2;
     int expected_events = 3;
     
-    XCTAssertEqualObjects(expected_vastRedirect, ad.vastRedirect);
-    XCTAssertEqual(expected_vastType, ad.vastType);
-    XCTAssertEqualObjects(expected_mediaUrl, ad.mediaUrl);
-    XCTAssertNotNil([ad mediaList]);
-    XCTAssertEqual(expected_medias, [[ad mediaList] count]);
-    XCTAssertNotNil([ad vastEvents]);
-    XCTAssertEqual(expected_events, [[ad vastEvents] count]);
+    XCTAssertEqualObjects(expected_redirect, ad.redirect);
+    XCTAssertEqual(expected_type, ad.type);
+    XCTAssertEqualObjects(expected_url, ad.url);
+    XCTAssertNotNil([ad media]);
+    XCTAssertEqual(expected_medias, [[ad media] count]);
+    XCTAssertNotNil([ad events]);
+    XCTAssertEqual(expected_events, [[ad events] count]);
     
-    for (SATracking *tracking in [ad vastEvents]) {
+    for (SATracking *tracking in [ad events]) {
         XCTAssertTrue([tracking isValid]);
     }
     
-    for (SAVASTMedia *media in [ad mediaList]) {
+    for (SAVASTMedia *media in [ad media]) {
         XCTAssertTrue([media isValid]);
     }
 }
@@ -214,19 +214,19 @@
     XCTAssertNotNil(ad);
     XCTAssertFalse([ad isValid]);
     
-    NSString *expected_vastRedirect = nil;
-    SAVASTAdType expected_vastType = SA_Invalid_VAST;
-    NSString *expected_mediaUrl = nil;
+    NSString *expected_redirect = nil;
+    SAVASTAdType expected_type = SA_Invalid_VAST;
+    NSString *expected_url = nil;
     int expected_medias = 0;
     int expected_events = 0;
     
-    XCTAssertEqualObjects(expected_vastRedirect, ad.vastRedirect);
-    XCTAssertEqual(expected_vastType, ad.vastType);
-    XCTAssertEqualObjects(expected_mediaUrl, ad.mediaUrl);
-    XCTAssertNotNil([ad mediaList]);
-    XCTAssertEqual(expected_medias, [[ad mediaList] count]);
-    XCTAssertNotNil([ad vastEvents]);
-    XCTAssertEqual(expected_events, [[ad vastEvents] count]);
+    XCTAssertEqualObjects(expected_redirect, ad.redirect);
+    XCTAssertEqual(expected_type, ad.type);
+    XCTAssertEqualObjects(expected_url, ad.url);
+    XCTAssertNotNil([ad media]);
+    XCTAssertEqual(expected_medias, [[ad media] count]);
+    XCTAssertNotNil([ad events]);
+    XCTAssertEqual(expected_events, [[ad events] count]);
 }
 
 

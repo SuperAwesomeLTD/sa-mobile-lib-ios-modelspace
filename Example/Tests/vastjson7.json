@@ -1,11 +1,11 @@
 {
-    "vastRedirect": null,
-    "vastType": 2,
-    "mediaUrl": "https://ads.superawesome.tv/v2/demo_images/video.mp4",
-    "mediaList": [
+    "redirect": null,
+    "type": 2,
+    "url": "https://ads.superawesome.tv/v2/demo_images/video.mp4",
+    "media": [
                   {
                   "type": "video/mp4",
-                  "mediaUrl": "https://ads.superawesome.tv/v2/demo_images/video.mp4",
+                  "url": "https://ads.superawesome.tv/v2/demo_images/video.mp4",
                   "bitrate": 720,
                   "width": 600,
                   "height": 400

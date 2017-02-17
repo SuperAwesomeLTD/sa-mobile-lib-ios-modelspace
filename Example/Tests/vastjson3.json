@@ -1,5 +1,5 @@
 {
     "type": "video/mp4",
-    "mediaUrl": "https://s3-eu-west-1.amazonaws.com/sb-ads-video-t" : 600,
+    "url": "https://s3-eu-west-1.amazonaws.com/sb-ads-video-t" : 600,
     "height": 480
 }

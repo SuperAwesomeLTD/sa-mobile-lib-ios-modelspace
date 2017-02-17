@@ -1,6 +1,6 @@
 {
-    "vastRedirect": null,
-    "vastType": 0,
-    "mediaUrl": null,
-    "mediaList": []
+    "redirect": null,
+    "type": 0,
+    "url": null,
+    "media": []
 }
