@@ -120,6 +120,7 @@
     NSString *expected_details_zip = NULL;
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/Jnit8s0LdkbOKbx6q6qn4A4jqMid2T4I.mp4";
     NSString *expected_details_cdn = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/";
+    NSString *expected_details_base = @"https://s3-eu-west-1.amazonaws.com";
     NSString *expected_details_vast = @"https://ads.staging.superawesome.tv/v2/video/vast/480/931/4906/?sdkVersion=unknown&rnd=434251983&device=web";
     
     XCTAssertNotNil(_result.creative.details);
@@ -136,6 +137,7 @@
     XCTAssertEqualObjects(_result.creative.details.zip, expected_details_zip);
     XCTAssertEqualObjects(_result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(_result.creative.details.cdn, expected_details_cdn);
+    XCTAssertEqualObjects(_result.creative.details.base, expected_details_base);
     XCTAssertEqualObjects(_result.creative.details.vast, expected_details_vast);
 }
 

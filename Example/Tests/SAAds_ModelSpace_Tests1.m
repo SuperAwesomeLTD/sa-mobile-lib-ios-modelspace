@@ -118,6 +118,7 @@
     NSString *expected_details_zip = nil;
     NSString *expected_details_url = nil;
     NSString *expected_details_cdn = nil;
+    NSString *expected_details_base = nil;
     NSString *expected_details_vast = nil;
     
     XCTAssertNotNil(_result.creative.details);
@@ -134,6 +135,7 @@
     XCTAssertEqualObjects(_result.creative.details.zip, expected_details_zip);
     XCTAssertEqualObjects(_result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(_result.creative.details.cdn, expected_details_cdn);
+    XCTAssertEqualObjects(_result.creative.details.base, expected_details_base);
     XCTAssertEqualObjects(_result.creative.details.vast, expected_details_vast);
     
 }

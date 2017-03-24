@@ -121,6 +121,7 @@
     NSString *expected_details_zip = nil;
     NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/iwPc7H9hU94gNhw8bx7SBgoQy0rUy3o5.jpg";
     NSString *expected_details_cdn = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/";
+    NSString *expected_details_base = @"https://s3-eu-west-1.amazonaws.com";
     NSString *expected_details_vast = nil;
     
     XCTAssertNotNil(_result.creative.details);
@@ -137,6 +138,7 @@
     XCTAssertEqualObjects(_result.creative.details.zip, expected_details_zip);
     XCTAssertEqualObjects(_result.creative.details.url, expected_details_url);
     XCTAssertEqualObjects(_result.creative.details.cdn, expected_details_cdn);
+    XCTAssertEqualObjects(_result.creative.details.base, expected_details_base);
     XCTAssertEqualObjects(_result.creative.details.vast, expected_details_vast);
     
 }
