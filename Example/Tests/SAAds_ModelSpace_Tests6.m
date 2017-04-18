@@ -89,6 +89,7 @@
     NSString *expected_creative_impressionUrl = nil;
     NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
     NSString *expected_creative_bundle = @"tv.superawesome.KWSDemo";
+    NSArray *expected_creative_osTarget = @[];
     
     XCTAssertNotNil(_result.creative);
     XCTAssertEqual(_result.creative._id, expected_creative_id);
@@ -103,6 +104,7 @@
     XCTAssertEqualObjects(_result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(_result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(_result.creative.bundle, expected_creative_bundle);
+    XCTAssertEqualObjects(_result.creative.osTarget, expected_creative_osTarget);
     
 }
 

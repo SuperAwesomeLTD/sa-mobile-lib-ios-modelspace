@@ -76,6 +76,7 @@
 }
 
 - (void) test_SACreative {
+    
     NSInteger expected_creative_id = 114;
     NSString *expected_creative_name = @"Banner 1";
     NSInteger expected_creative_cpm = 0;
@@ -88,6 +89,7 @@
     NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
     NSString *expected_creative_impressionUrl = @"http://superawesome.tv";
     NSString *expected_creative_bundle = nil;
+    NSArray *expected_creative_osTarget = @[];
     
     XCTAssertNotNil(_result.creative);
     XCTAssertEqual(_result.creative._id, expected_creative_id);
@@ -102,6 +104,7 @@
     XCTAssertEqualObjects(_result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(_result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
     XCTAssertEqualObjects(_result.creative.bundle, expected_creative_bundle);
+    XCTAssertEqualObjects(_result.creative.osTarget, expected_creative_osTarget);
 }
 
 - (void) test_SADetails {

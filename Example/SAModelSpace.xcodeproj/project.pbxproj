@@ -13,6 +13,8 @@
 		1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE91DB65B0F00599351 /* json3.json */; };
 		1B0D3DED1DB65B3B00599351 /* json4.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEC1DB65B3B00599351 /* json4.json */; };
 		1B0D3DEF1DB65BA200599351 /* json5.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEE1DB65BA200599351 /* json5.json */; };
+		1B72298D1EA62FA200B9897F /* json7.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B72298C1EA62FA200B9897F /* json7.json */; };
+		1B72298F1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B72298E1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m */; };
 		1BBD74C11E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD74C01E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m */; };
 		1BBD74C41E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD74C31E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m */; };
 		1BBD74E11E2E62EA00F3EF6B /* vastjson1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D31E2E62BB00F3EF6B /* vastjson1.json */; };
@@ -62,6 +64,8 @@
 		1B0D3DE91DB65B0F00599351 /* json3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json3.json; sourceTree = "<group>"; };
 		1B0D3DEC1DB65B3B00599351 /* json4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json4.json; sourceTree = "<group>"; };
 		1B0D3DEE1DB65BA200599351 /* json5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json5.json; sourceTree = "<group>"; };
+		1B72298C1EA62FA200B9897F /* json7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json7.json; sourceTree = "<group>"; };
+		1B72298E1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests8.m; sourceTree = "<group>"; };
 		1BBD74C01E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVAST_ModelSpace_Tests1.m; sourceTree = "<group>"; };
 		1BBD74C31E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests1.m; sourceTree = "<group>"; };
 		1BBD74D31E2E62BB00F3EF6B /* vastjson1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson1.json; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 				1B0D3DEC1DB65B3B00599351 /* json4.json */,
 				1B0D3DEE1DB65BA200599351 /* json5.json */,
 				1BC855421DBA5C9700763B9F /* json6.json */,
+				1B72298C1EA62FA200B9897F /* json7.json */,
 			);
 			name = Datasource;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 				1BE1BF021E65F19000C4B3B9 /* SAAds_ModelSpace_Tests5.m */,
 				1BE1BF041E65F19700C4B3B9 /* SAAds_ModelSpace_Tests6.m */,
 				1BE1BF061E65F19F00C4B3B9 /* SAAds_ModelSpace_Tests7.m */,
+				1B72298E1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m */,
 				1BBD74C01E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m */,
 				1BE1BEFA1E65EEDD00C4B3B9 /* SAVAST_ModelSpace_Tests2.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
@@ -357,6 +363,7 @@
 				1B0D3DE81DB65A2200599351 /* json2.json in Resources */,
 				1BBD74E71E2E62EE00F3EF6B /* vastjson7.json in Resources */,
 				1B0D3DED1DB65B3B00599351 /* json4.json in Resources */,
+				1B72298D1EA62FA200B9897F /* json7.json in Resources */,
 				1BC855431DBA5C9700763B9F /* json6.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				1BBD74E11E2E62EA00F3EF6B /* vastjson1.json in Resources */,
@@ -487,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B72298F1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m in Sources */,
 				1BBD74C11E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m in Sources */,
 				1BE1BF011E65F18A00C4B3B9 /* SAAds_ModelSpace_Tests4.m in Sources */,
 				1BE1BEFF1E65F18300C4B3B9 /* SAAds_ModelSpace_Tests3.m in Sources */,
