@@ -1,9 +1,9 @@
 PODS:
   - SAJsonParser (1.3.2)
-  - SAModelSpace (0.4.3):
+  - SAModelSpace (0.4.8):
     - SAJsonParser (= 1.3.2)
-    - SAUtils (= 1.5.0)
-  - SAUtils (1.5.0)
+    - SAUtils (= 1.5.2)
+  - SAUtils (1.5.2)
 
 DEPENDENCIES:
   - SAModelSpace (from `../`)
@@ -14,9 +14,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SAJsonParser: d0db6d8c737c04f8bf4e9474e82825347aa24f58
-  SAModelSpace: 1c131616df7a99d94c5ce587438be1e69f6223c3
-  SAUtils: 1e8b881ca8c7fac2749c8fd9b851f0b344611035
+  SAModelSpace: b46a2d5dfd64d5da1378be781c9005a529a727ad
+  SAUtils: c0d6c68af97b4fdc18a1dcc613f9b5cde25b78f8
 
 PODFILE CHECKSUM: cf242523a8c3c6aa533c3ab1fcdb64b6ccd46e43
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.1
