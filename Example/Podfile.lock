@@ -1,9 +1,9 @@
 PODS:
-  - SAJsonParser (1.3.3)
+  - SAJsonParser (1.3.4)
   - SAModelSpace (0.5.3):
-    - SAJsonParser (= 1.3.3)
-    - SAUtils (= 1.5.3)
-  - SAUtils (1.5.3)
+    - SAJsonParser (= 1.3.4)
+    - SAUtils (= 1.5.4)
+  - SAUtils (1.5.4)
 
 DEPENDENCIES:
   - SAModelSpace (from `../`)
@@ -13,9 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAJsonParser: 528ef25b7cf7f362164731a7aa8401bc89dc4cf5
-  SAModelSpace: b9688c1bdf3fc3948571216cec58bb368a19bf82
-  SAUtils: a86a14c152342f11dbd84a9c3d9c26737437af1c
+  SAJsonParser: f7c534c9e7bca38dfa4d254d2229122f562bd953
+  SAModelSpace: 030837afb9e8c9e755c9552e2e0e52edb2f7779b
+  SAUtils: 225cdfaee9cb68184d5d27d7ff1119e1150d3398
 
 PODFILE CHECKSUM: d2da7792ed9c28dd58d3152b5a035e4ff9bd1630
 
