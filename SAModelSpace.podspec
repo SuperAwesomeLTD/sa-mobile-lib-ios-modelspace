@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SAModelSpace'
-  s.version = '0.5.4'
+  s.version = '1.0.0'
   s.summary = 'SAModelSpace contains the models for SuperAwesome'
   s.description = <<-DESC
     SAModelSpace contains all the required models for the SuperAwesome SDK.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source = { 
 	:git => 'https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-modelspace.git', 
 	:branch => 'master',
- 	:tag => '0.5.4' 
+ 	:tag => '1.0.0' 
   }
   s.platform = :ios, '8.0'
   s.requires_arc = true
