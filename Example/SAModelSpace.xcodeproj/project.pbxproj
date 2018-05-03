@@ -7,31 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B0D3DE61DB63FC800599351 /* json1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE51DB63FC800599351 /* json1.json */; };
-		1B0D3DE81DB65A2200599351 /* json2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE71DB65A2200599351 /* json2.json */; };
-		1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DE91DB65B0F00599351 /* json3.json */; };
-		1B0D3DED1DB65B3B00599351 /* json4.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEC1DB65B3B00599351 /* json4.json */; };
-		1B0D3DEF1DB65BA200599351 /* json5.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B0D3DEE1DB65BA200599351 /* json5.json */; };
-		1B72298D1EA62FA200B9897F /* json7.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B72298C1EA62FA200B9897F /* json7.json */; };
-		1B72298F1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B72298E1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m */; };
-		1BBD74C11E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD74C01E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m */; };
-		1BBD74C41E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD74C31E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m */; };
-		1BBD74E11E2E62EA00F3EF6B /* vastjson1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D31E2E62BB00F3EF6B /* vastjson1.json */; };
-		1BBD74E21E2E62EE00F3EF6B /* vastjson2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D41E2E62BB00F3EF6B /* vastjson2.json */; };
-		1BBD74E31E2E62EE00F3EF6B /* vastjson3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D51E2E62BB00F3EF6B /* vastjson3.json */; };
-		1BBD74E41E2E62EE00F3EF6B /* vastjson4.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D61E2E62BB00F3EF6B /* vastjson4.json */; };
-		1BBD74E51E2E62EE00F3EF6B /* vastjson5.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D71E2E62BB00F3EF6B /* vastjson5.json */; };
-		1BBD74E61E2E62EE00F3EF6B /* vastjson6.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D81E2E62BB00F3EF6B /* vastjson6.json */; };
-		1BBD74E71E2E62EE00F3EF6B /* vastjson7.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD74D91E2E62BB00F3EF6B /* vastjson7.json */; };
-		1BC855431DBA5C9700763B9F /* json6.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC855421DBA5C9700763B9F /* json6.json */; };
-		1BE1BEFB1E65EEDD00C4B3B9 /* SAVAST_ModelSpace_Tests2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BEFA1E65EEDD00C4B3B9 /* SAVAST_ModelSpace_Tests2.m */; };
-		1BE1BEFD1E65F17B00C4B3B9 /* SAAds_ModelSpace_Tests2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BEFC1E65F17B00C4B3B9 /* SAAds_ModelSpace_Tests2.m */; };
-		1BE1BEFF1E65F18300C4B3B9 /* SAAds_ModelSpace_Tests3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BEFE1E65F18300C4B3B9 /* SAAds_ModelSpace_Tests3.m */; };
-		1BE1BF011E65F18A00C4B3B9 /* SAAds_ModelSpace_Tests4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF001E65F18A00C4B3B9 /* SAAds_ModelSpace_Tests4.m */; };
-		1BE1BF031E65F19000C4B3B9 /* SAAds_ModelSpace_Tests5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF021E65F19000C4B3B9 /* SAAds_ModelSpace_Tests5.m */; };
-		1BE1BF051E65F19700C4B3B9 /* SAAds_ModelSpace_Tests6.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF041E65F19700C4B3B9 /* SAAds_ModelSpace_Tests6.m */; };
-		1BE1BF071E65F19F00C4B3B9 /* SAAds_ModelSpace_Tests7.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF061E65F19F00C4B3B9 /* SAAds_ModelSpace_Tests7.m */; };
-		252AB4533AFD21CBEDFE16F6 /* libPods-SAModelSpace_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F854287AD4F070AB9191184 /* libPods-SAModelSpace_Tests.a */; };
+		1B1C43E5209B3F7D003EE3DA /* SATestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C43E4209B3F7D003EE3DA /* SATestUtils.m */; };
+		1B1C43E8209B4006003EE3DA /* fixtures.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B1C43E6209B4002003EE3DA /* fixtures.bundle */; };
+		1B72298F1EA62FBF00B9897F /* TestSAAd_8.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B72298E1EA62FBF00B9897F /* TestSAAd_8.m */; };
+		1BBD74C11E2E5CD200F3EF6B /* TestSAVAST_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD74C01E2E5CD200F3EF6B /* TestSAVAST_1.m */; };
+		1BBD74C41E2E5D1B00F3EF6B /* TestSAAd_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD74C31E2E5D1B00F3EF6B /* TestSAAd_1.m */; };
+		1BE1BEFB1E65EEDD00C4B3B9 /* TestSAVAST_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BEFA1E65EEDD00C4B3B9 /* TestSAVAST_2.m */; };
+		1BE1BEFD1E65F17B00C4B3B9 /* TestSAAd_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BEFC1E65F17B00C4B3B9 /* TestSAAd_2.m */; };
+		1BE1BEFF1E65F18300C4B3B9 /* TestSAAd_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BEFE1E65F18300C4B3B9 /* TestSAAd_3.m */; };
+		1BE1BF011E65F18A00C4B3B9 /* TestSAAd_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF001E65F18A00C4B3B9 /* TestSAAd_4.m */; };
+		1BE1BF031E65F19000C4B3B9 /* TestSAAd_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF021E65F19000C4B3B9 /* TestSAAd_5.m */; };
+		1BE1BF051E65F19700C4B3B9 /* TestSAAd_6.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF041E65F19700C4B3B9 /* TestSAAd_6.m */; };
+		1BE1BF071E65F19F00C4B3B9 /* TestSAAd_7.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF061E65F19F00C4B3B9 /* TestSAAd_7.m */; };
+		2F9323F98ACA195B136A5540 /* libPods-SAModelSpace_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2253918EA10D3B3FB4274B80 /* libPods-SAModelSpace_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,8 +32,8 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		7BB89A4ED705E2DAF1021B4A /* libPods-SAModelSpace_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B255FCB21316BFAF7FC9F4 /* libPods-SAModelSpace_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		91F406A038D26D1329574928 /* libPods-SAModelSpace_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CDE4B9A20A51B3AA0825A9 /* libPods-SAModelSpace_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,33 +47,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B0D3DE51DB63FC800599351 /* json1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json1.json; sourceTree = "<group>"; };
-		1B0D3DE71DB65A2200599351 /* json2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json2.json; sourceTree = "<group>"; };
-		1B0D3DE91DB65B0F00599351 /* json3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json3.json; sourceTree = "<group>"; };
-		1B0D3DEC1DB65B3B00599351 /* json4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json4.json; sourceTree = "<group>"; };
-		1B0D3DEE1DB65BA200599351 /* json5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json5.json; sourceTree = "<group>"; };
-		1B72298C1EA62FA200B9897F /* json7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json7.json; sourceTree = "<group>"; };
-		1B72298E1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests8.m; sourceTree = "<group>"; };
-		1BBD74C01E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVAST_ModelSpace_Tests1.m; sourceTree = "<group>"; };
-		1BBD74C31E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests1.m; sourceTree = "<group>"; };
-		1BBD74D31E2E62BB00F3EF6B /* vastjson1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson1.json; sourceTree = "<group>"; };
-		1BBD74D41E2E62BB00F3EF6B /* vastjson2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson2.json; sourceTree = "<group>"; };
-		1BBD74D51E2E62BB00F3EF6B /* vastjson3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson3.json; sourceTree = "<group>"; };
-		1BBD74D61E2E62BB00F3EF6B /* vastjson4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson4.json; sourceTree = "<group>"; };
-		1BBD74D71E2E62BB00F3EF6B /* vastjson5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson5.json; sourceTree = "<group>"; };
-		1BBD74D81E2E62BB00F3EF6B /* vastjson6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson6.json; sourceTree = "<group>"; };
-		1BBD74D91E2E62BB00F3EF6B /* vastjson7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vastjson7.json; sourceTree = "<group>"; };
-		1BC855421DBA5C9700763B9F /* json6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json6.json; sourceTree = "<group>"; };
-		1BE1BEFA1E65EEDD00C4B3B9 /* SAVAST_ModelSpace_Tests2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVAST_ModelSpace_Tests2.m; sourceTree = "<group>"; };
-		1BE1BEFC1E65F17B00C4B3B9 /* SAAds_ModelSpace_Tests2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests2.m; sourceTree = "<group>"; };
-		1BE1BEFE1E65F18300C4B3B9 /* SAAds_ModelSpace_Tests3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests3.m; sourceTree = "<group>"; };
-		1BE1BF001E65F18A00C4B3B9 /* SAAds_ModelSpace_Tests4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests4.m; sourceTree = "<group>"; };
-		1BE1BF021E65F19000C4B3B9 /* SAAds_ModelSpace_Tests5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests5.m; sourceTree = "<group>"; };
-		1BE1BF041E65F19700C4B3B9 /* SAAds_ModelSpace_Tests6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests6.m; sourceTree = "<group>"; };
-		1BE1BF061E65F19F00C4B3B9 /* SAAds_ModelSpace_Tests7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAds_ModelSpace_Tests7.m; sourceTree = "<group>"; };
-		23010AFE09C64FA09A4D6A25 /* Pods-SAModelSpace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2BB16C1109BDDA9D8C3373D8 /* Pods-SAModelSpace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F854287AD4F070AB9191184 /* libPods-SAModelSpace_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06533C1570FA758A56100206 /* Pods-SAModelSpace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		14B255FCB21316BFAF7FC9F4 /* libPods-SAModelSpace_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1C43E3209B3F7D003EE3DA /* SATestUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SATestUtils.h; sourceTree = "<group>"; };
+		1B1C43E4209B3F7D003EE3DA /* SATestUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SATestUtils.m; sourceTree = "<group>"; };
+		1B1C43E6209B4002003EE3DA /* fixtures.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = fixtures.bundle; sourceTree = "<group>"; };
+		1B72298E1EA62FBF00B9897F /* TestSAAd_8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_8.m; sourceTree = "<group>"; };
+		1BBD74C01E2E5CD200F3EF6B /* TestSAVAST_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAVAST_1.m; sourceTree = "<group>"; };
+		1BBD74C31E2E5D1B00F3EF6B /* TestSAAd_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_1.m; sourceTree = "<group>"; };
+		1BE1BEFA1E65EEDD00C4B3B9 /* TestSAVAST_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAVAST_2.m; sourceTree = "<group>"; };
+		1BE1BEFC1E65F17B00C4B3B9 /* TestSAAd_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_2.m; sourceTree = "<group>"; };
+		1BE1BEFE1E65F18300C4B3B9 /* TestSAAd_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_3.m; sourceTree = "<group>"; };
+		1BE1BF001E65F18A00C4B3B9 /* TestSAAd_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_4.m; sourceTree = "<group>"; };
+		1BE1BF021E65F19000C4B3B9 /* TestSAAd_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_5.m; sourceTree = "<group>"; };
+		1BE1BF041E65F19700C4B3B9 /* TestSAAd_6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_6.m; sourceTree = "<group>"; };
+		1BE1BF061E65F19F00C4B3B9 /* TestSAAd_7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAd_7.m; sourceTree = "<group>"; };
+		2253918EA10D3B3FB4274B80 /* libPods-SAModelSpace_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300DECBB1B7E813D4378AF8B /* Pods-SAModelSpace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54D6D2BCEAB62FB2BE204FB4 /* Pods-SAModelSpace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SAModelSpace_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAModelSpace_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,10 +86,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8B9B44402D53558F5DE852B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8F8DA12838229782A6358223 /* SAModelSpace.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SAModelSpace.podspec; path = ../SAModelSpace.podspec; sourceTree = "<group>"; };
-		D1A4EE5205575EF50783CFCC /* Pods-SAModelSpace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8D71B3FCD01763DDABAA1AB /* Pods-SAModelSpace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E818488FFAA2B80EF0814E34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EC46FAD382331D6D779F3BD3 /* Pods-SAModelSpace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAModelSpace_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F8CDE4B9A20A51B3AA0825A9 /* libPods-SAModelSpace_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAModelSpace_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +98,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				91F406A038D26D1329574928 /* libPods-SAModelSpace_Example.a in Frameworks */,
+				2F9323F98ACA195B136A5540 /* libPods-SAModelSpace_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,32 +109,44 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				252AB4533AFD21CBEDFE16F6 /* libPods-SAModelSpace_Tests.a in Frameworks */,
+				7BB89A4ED705E2DAF1021B4A /* libPods-SAModelSpace_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B0D3DEB1DB65B1500599351 /* Datasource */ = {
+		1B1C43E2209B3F71003EE3DA /* TestUtils */ = {
 			isa = PBXGroup;
 			children = (
-				1BBD74D31E2E62BB00F3EF6B /* vastjson1.json */,
-				1BBD74D41E2E62BB00F3EF6B /* vastjson2.json */,
-				1BBD74D51E2E62BB00F3EF6B /* vastjson3.json */,
-				1BBD74D61E2E62BB00F3EF6B /* vastjson4.json */,
-				1BBD74D71E2E62BB00F3EF6B /* vastjson5.json */,
-				1BBD74D81E2E62BB00F3EF6B /* vastjson6.json */,
-				1BBD74D91E2E62BB00F3EF6B /* vastjson7.json */,
-				1B0D3DE51DB63FC800599351 /* json1.json */,
-				1B0D3DE71DB65A2200599351 /* json2.json */,
-				1B0D3DE91DB65B0F00599351 /* json3.json */,
-				1B0D3DEC1DB65B3B00599351 /* json4.json */,
-				1B0D3DEE1DB65BA200599351 /* json5.json */,
-				1BC855421DBA5C9700763B9F /* json6.json */,
-				1B72298C1EA62FA200B9897F /* json7.json */,
+				1B1C43E3209B3F7D003EE3DA /* SATestUtils.h */,
+				1B1C43E4209B3F7D003EE3DA /* SATestUtils.m */,
 			);
-			name = Datasource;
+			name = TestUtils;
+			sourceTree = "<group>";
+		};
+		1B1C43E9209B4369003EE3DA /* SAAd */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD74C31E2E5D1B00F3EF6B /* TestSAAd_1.m */,
+				1BE1BEFC1E65F17B00C4B3B9 /* TestSAAd_2.m */,
+				1BE1BEFE1E65F18300C4B3B9 /* TestSAAd_3.m */,
+				1BE1BF001E65F18A00C4B3B9 /* TestSAAd_4.m */,
+				1BE1BF021E65F19000C4B3B9 /* TestSAAd_5.m */,
+				1BE1BF041E65F19700C4B3B9 /* TestSAAd_6.m */,
+				1BE1BF061E65F19F00C4B3B9 /* TestSAAd_7.m */,
+				1B72298E1EA62FBF00B9897F /* TestSAAd_8.m */,
+			);
+			name = SAAd;
+			sourceTree = "<group>";
+		};
+		1B1C43EA209B436C003EE3DA /* VASTAd */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD74C01E2E5CD200F3EF6B /* TestSAVAST_1.m */,
+				1BE1BEFA1E65EEDD00C4B3B9 /* TestSAVAST_2.m */,
+			);
+			name = VASTAd;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -168,7 +157,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				8556EB9BEAA122F5194271BB /* Pods */,
+				EB138A5597198BB5AA317399 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,8 +177,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F8CDE4B9A20A51B3AA0825A9 /* libPods-SAModelSpace_Example.a */,
-				5F854287AD4F070AB9191184 /* libPods-SAModelSpace_Tests.a */,
+				2253918EA10D3B3FB4274B80 /* libPods-SAModelSpace_Example.a */,
+				14B255FCB21316BFAF7FC9F4 /* libPods-SAModelSpace_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,17 +212,10 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1B0D3DEB1DB65B1500599351 /* Datasource */,
-				1BBD74C31E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m */,
-				1BE1BEFC1E65F17B00C4B3B9 /* SAAds_ModelSpace_Tests2.m */,
-				1BE1BEFE1E65F18300C4B3B9 /* SAAds_ModelSpace_Tests3.m */,
-				1BE1BF001E65F18A00C4B3B9 /* SAAds_ModelSpace_Tests4.m */,
-				1BE1BF021E65F19000C4B3B9 /* SAAds_ModelSpace_Tests5.m */,
-				1BE1BF041E65F19700C4B3B9 /* SAAds_ModelSpace_Tests6.m */,
-				1BE1BF061E65F19F00C4B3B9 /* SAAds_ModelSpace_Tests7.m */,
-				1B72298E1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m */,
-				1BBD74C01E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m */,
-				1BE1BEFA1E65EEDD00C4B3B9 /* SAVAST_ModelSpace_Tests2.m */,
+				1B1C43EA209B436C003EE3DA /* VASTAd */,
+				1B1C43E9209B4369003EE3DA /* SAAd */,
+				1B1C43E6209B4002003EE3DA /* fixtures.bundle */,
+				1B1C43E2209B3F71003EE3DA /* TestUtils */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -259,13 +241,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		8556EB9BEAA122F5194271BB /* Pods */ = {
+		EB138A5597198BB5AA317399 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23010AFE09C64FA09A4D6A25 /* Pods-SAModelSpace_Example.debug.xcconfig */,
-				D1A4EE5205575EF50783CFCC /* Pods-SAModelSpace_Example.release.xcconfig */,
-				2BB16C1109BDDA9D8C3373D8 /* Pods-SAModelSpace_Tests.debug.xcconfig */,
-				EC46FAD382331D6D779F3BD3 /* Pods-SAModelSpace_Tests.release.xcconfig */,
+				A8D71B3FCD01763DDABAA1AB /* Pods-SAModelSpace_Example.debug.xcconfig */,
+				300DECBB1B7E813D4378AF8B /* Pods-SAModelSpace_Example.release.xcconfig */,
+				06533C1570FA758A56100206 /* Pods-SAModelSpace_Tests.debug.xcconfig */,
+				54D6D2BCEAB62FB2BE204FB4 /* Pods-SAModelSpace_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -277,12 +259,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SAModelSpace_Example" */;
 			buildPhases = (
-				A29940E0B1DD5B37ECB759E1 /* [CP] Check Pods Manifest.lock */,
+				32437ACF766105D33536A6F1 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FDABB0A52DCA91BD5E7328AD /* [CP] Embed Pods Frameworks */,
-				199CBA80CCDD07EACD1213CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,12 +277,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SAModelSpace_Tests" */;
 			buildPhases = (
-				414907AD4E616B0B1A111788 /* [CP] Check Pods Manifest.lock */,
+				6EE78608606CA30F43D76F3F /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D8CD399E6E78F20FD447DCDE /* [CP] Embed Pods Frameworks */,
-				7E8D00AF7C1ADA983CF30E26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -357,22 +335,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				1B0D3DEF1DB65BA200599351 /* json5.json in Resources */,
-				1B0D3DE61DB63FC800599351 /* json1.json in Resources */,
-				1BBD74E21E2E62EE00F3EF6B /* vastjson2.json in Resources */,
-				1B0D3DE81DB65A2200599351 /* json2.json in Resources */,
-				1BBD74E71E2E62EE00F3EF6B /* vastjson7.json in Resources */,
-				1B0D3DED1DB65B3B00599351 /* json4.json in Resources */,
-				1B72298D1EA62FA200B9897F /* json7.json in Resources */,
-				1BC855431DBA5C9700763B9F /* json6.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				1BBD74E11E2E62EA00F3EF6B /* vastjson1.json in Resources */,
-				1BBD74E31E2E62EE00F3EF6B /* vastjson3.json in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				1BBD74E41E2E62EE00F3EF6B /* vastjson4.json in Resources */,
-				1BBD74E61E2E62EE00F3EF6B /* vastjson6.json in Resources */,
-				1B0D3DEA1DB65B0F00599351 /* json3.json in Resources */,
-				1BBD74E51E2E62EE00F3EF6B /* vastjson5.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,61 +345,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				1B1C43E8209B4006003EE3DA /* fixtures.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		199CBA80CCDD07EACD1213CB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		414907AD4E616B0B1A111788 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SAModelSpace_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E8D00AF7C1ADA983CF30E26 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A29940E0B1DD5B37ECB759E1 /* [CP] Check Pods Manifest.lock */ = {
+		32437ACF766105D33536A6F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,34 +370,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8CD399E6E78F20FD447DCDE /* [CP] Embed Pods Frameworks */ = {
+		6EE78608606CA30F43D76F3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SAModelSpace_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAModelSpace_Tests/Pods-SAModelSpace_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FDABB0A52DCA91BD5E7328AD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAModelSpace_Example/Pods-SAModelSpace_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SAAppDelegate.m in Sources */,
+				1B1C43E5209B3F7D003EE3DA /* SATestUtils.m in Sources */,
 				6003F5A7195388D20070C39A /* SAViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -500,16 +406,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B72298F1EA62FBF00B9897F /* SAAds_ModelSpace_Tests8.m in Sources */,
-				1BBD74C11E2E5CD200F3EF6B /* SAVAST_ModelSpace_Tests1.m in Sources */,
-				1BE1BF011E65F18A00C4B3B9 /* SAAds_ModelSpace_Tests4.m in Sources */,
-				1BE1BEFF1E65F18300C4B3B9 /* SAAds_ModelSpace_Tests3.m in Sources */,
-				1BE1BF071E65F19F00C4B3B9 /* SAAds_ModelSpace_Tests7.m in Sources */,
-				1BE1BF031E65F19000C4B3B9 /* SAAds_ModelSpace_Tests5.m in Sources */,
-				1BBD74C41E2E5D1B00F3EF6B /* SAAds_ModelSpace_Tests1.m in Sources */,
-				1BE1BEFD1E65F17B00C4B3B9 /* SAAds_ModelSpace_Tests2.m in Sources */,
-				1BE1BF051E65F19700C4B3B9 /* SAAds_ModelSpace_Tests6.m in Sources */,
-				1BE1BEFB1E65EEDD00C4B3B9 /* SAVAST_ModelSpace_Tests2.m in Sources */,
+				1B72298F1EA62FBF00B9897F /* TestSAAd_8.m in Sources */,
+				1BBD74C11E2E5CD200F3EF6B /* TestSAVAST_1.m in Sources */,
+				1BE1BF011E65F18A00C4B3B9 /* TestSAAd_4.m in Sources */,
+				1BE1BEFF1E65F18300C4B3B9 /* TestSAAd_3.m in Sources */,
+				1BE1BF071E65F19F00C4B3B9 /* TestSAAd_7.m in Sources */,
+				1BE1BF031E65F19000C4B3B9 /* TestSAAd_5.m in Sources */,
+				1BBD74C41E2E5D1B00F3EF6B /* TestSAAd_1.m in Sources */,
+				1BE1BEFD1E65F17B00C4B3B9 /* TestSAAd_2.m in Sources */,
+				1BE1BF051E65F19700C4B3B9 /* TestSAAd_6.m in Sources */,
+				1BE1BEFB1E65EEDD00C4B3B9 /* TestSAVAST_2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,7 +534,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23010AFE09C64FA09A4D6A25 /* Pods-SAModelSpace_Example.debug.xcconfig */;
+			baseConfigurationReference = A8D71B3FCD01763DDABAA1AB /* Pods-SAModelSpace_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -645,7 +551,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A4EE5205575EF50783CFCC /* Pods-SAModelSpace_Example.release.xcconfig */;
+			baseConfigurationReference = 300DECBB1B7E813D4378AF8B /* Pods-SAModelSpace_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -662,7 +568,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BB16C1109BDDA9D8C3373D8 /* Pods-SAModelSpace_Tests.debug.xcconfig */;
+			baseConfigurationReference = 06533C1570FA758A56100206 /* Pods-SAModelSpace_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -686,7 +592,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC46FAD382331D6D779F3BD3 /* Pods-SAModelSpace_Tests.release.xcconfig */;
+			baseConfigurationReference = 54D6D2BCEAB62FB2BE204FB4 /* Pods-SAModelSpace_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

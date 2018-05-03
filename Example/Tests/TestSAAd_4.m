@@ -1,5 +1,5 @@
 //
-//  SAAds_ModelSpace_Tests7.m
+//  SAAds_ModelSpace_Tests4.m
 //  SAModelSpace
 //
 //  Created by Gabriel Coman on 28/02/2017.
@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
+#import "SATestUtils.h"
 #import "SAAd.h"
 #import "SACreative.h"
 #import "SADetails.h"
@@ -15,22 +16,21 @@
 #import "SAResponse.h"
 #import "SAVASTAd.h"
 #import "SAVASTEvent.h"
-#import "SAVASTMedia.h"
 
-@interface SAAds_ModelSpace_Tests8 : XCTestCase
+@interface TestSAAd_4 : XCTestCase
+@property (nonatomic, strong) SATestUtils *utils;
 @property (nonatomic, strong) SAAd *result;
 @end
 
-@implementation SAAds_ModelSpace_Tests8
+@implementation TestSAAd_4
 
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"json7" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    _utils = [[SATestUtils alloc] init];
+    NSString *given = [_utils fixtureWithName:@"mock_ad_response_3" ofType:@"json"];
     _result = [[SAAd alloc] initWithJsonString:given];
-    _result.placementId = 100;
 }
 
 - (void)tearDown {
@@ -43,13 +43,13 @@
     NSInteger expected_error = 0;
     NSInteger expected_advertiserId = 1;
     NSInteger expected_publisherId = 1;
-    NSInteger expected_appId = 1568;
-    NSInteger expected_lineItemId = 1143;
-    NSInteger expected_campaignId = 1270;
-    NSInteger expected_placementId = 100;
-    CGFloat expected_moat = 0.2;
-    SACampaignType expected_campaignType = SA_CPI;
-    NSString *expected_device = @"phone";
+    NSInteger expected_appId = 105;
+    NSInteger expected_lineItemId = 141;
+    NSInteger expected_campaignId = 117;
+    NSInteger expected_placementId = 0;
+    CGFloat expected_moat = 0.5;
+    SACampaignType expected_campaignType = SA_CPM;
+    NSString *expected_device = @"web";
     BOOL expected_isTest = false;
     BOOL expected_isFallback = false;
     BOOL expected_isFill = false;
@@ -61,8 +61,8 @@
     XCTAssertEqual(_result.error, expected_error);
     XCTAssertEqual(_result.advertiserId, expected_advertiserId);
     XCTAssertEqual(_result.publisherId, expected_publisherId);
-    XCTAssertEqual(_result.appId, expected_appId);
     XCTAssertEqualWithAccuracy(_result.moat, expected_moat, 0.01);
+    XCTAssertEqual(_result.appId, expected_appId);
     XCTAssertEqual(_result.lineItemId, expected_lineItemId);
     XCTAssertEqual(_result.campaignId, expected_campaignId);
     XCTAssertEqual(_result.placementId, expected_placementId);
@@ -79,19 +79,19 @@
 
 - (void) test_SACreative {
     
-    NSInteger expected_creative_id = 5889;
-    NSString *expected_creative_name = @"Gabriel CPI iOS AppWall 1";
+    NSInteger expected_creative_id = 127;
+    NSString *expected_creative_name = @"Interstitial 3-1";
     NSInteger expected_creative_cpm = 0;
-    SACreativeFormat expected_creative_format = SA_Image;
+    SACreativeFormat expected_creative_format = SA_Tag;
     BOOL expected_creative_live = true;
     BOOL expected_creative_approved = true;
     NSString *expected_creative_payload = nil;
-    NSString *expected_creative_clickUrl = @"http://hotnews.ro";
-    NSString *expected_creative_installUrl = @"http://zoso.ro";
-    NSString *expected_creative_impressionUrl = @"https://cetin.ro";
-    NSString *expected_creative_clickCounterUrl = @"http://zoso.ro";
-    NSString *expected_creative_bundle = @"tv.superawesome.SuperAwesome";
-    NSArray *expected_creative_osTarget = @[@"iOS"];
+    NSString *expected_creative_clickUrl = nil;
+    NSString *expected_creative_installUrl = nil;
+    NSString *expected_creative_impressionUrl = nil;
+    NSString *expected_creative_clickCounterUrl = nil;
+    NSString *expected_creative_bundle = nil;
+    NSArray *expected_creative_osTarget = @[];
     
     XCTAssertNotNil(_result.creative);
     XCTAssertEqual(_result.creative._id, expected_creative_id);
@@ -103,8 +103,8 @@
     XCTAssertEqualObjects(_result.creative.payload, expected_creative_payload);
     XCTAssertEqualObjects(_result.creative.clickUrl, expected_creative_clickUrl);
     XCTAssertEqualObjects(_result.creative.installUrl, expected_creative_installUrl);
-    XCTAssertEqualObjects(_result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(_result.creative.clickCounterUrl, expected_creative_clickCounterUrl);
+    XCTAssertEqualObjects(_result.creative.impressionUrl, expected_creative_impressionUrl);
     XCTAssertEqualObjects(_result.creative.bundle, expected_creative_bundle);
     XCTAssertEqualObjects(_result.creative.osTarget, expected_creative_osTarget);
     
@@ -112,20 +112,20 @@
 
 - (void) test_SADetails {
     
-    NSInteger expected_details_width = 1;
-    NSInteger expected_details_height = 1;
+    NSInteger expected_details_width = 320;
+    NSInteger expected_details_height = 480;
     NSString *expected_details_name = nil;
-    NSString *expected_details_format = @"gamewall";
+    NSString *expected_details_format = @"mobile_display";
     NSInteger expected_details_bitrate = 0;
     NSInteger expected_details_duration = 0;
     NSInteger expected_details_value = 0;
-    NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/l2JQuokBbE8frtDqvo4rHF7ijksQCSFS.png";
-    NSString *expected_details_video = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/l2JQuokBbE8frtDqvo4rHF7ijksQCSFS.png";
-    NSString *expected_details_tag = nil;
+    NSString *expected_details_image = nil;
+    NSString *expected_details_video = nil;
+    NSString *expected_details_tag = @"<!-- Beginning PassBack for Ad unit FK:Site-Skyscraper-Passback ### size: [[120,600]] -->\\n\\t<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>\\n\\t\\tgoogletag.pubads().definePassback('1002534/FK:Site-Skyscraper-Passback', [[120,600]]).display();\\n\\t</script>\\n<!-- End Passback -->";
     NSString *expected_details_zip = nil;
-    NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/l2JQuokBbE8frtDqvo4rHF7ijksQCSFS.png";
-    NSString *expected_details_cdn = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/";
-    NSString *expected_details_base = @"https://s3-eu-west-1.amazonaws.com";
+    NSString *expected_details_url = nil;
+    NSString *expected_details_cdn = nil;
+    NSString *expected_details_base = @"https://ads.superawesome.tv";
     NSString *expected_details_vast = nil;
     
     XCTAssertNotNil(_result.creative.details);
@@ -184,5 +184,6 @@
     XCTAssertEqual([_result.creative.details.media.vastAd.events count], [expected_vastad_events count]);
     
 }
+
 
 @end

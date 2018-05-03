@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
-  s.dependency 'SAJsonParser', '1.3.4'
-  s.dependency 'SAUtils', '1.5.4'
+  s.dependency 'SAJsonParser', '1.3.5'
+  s.dependency 'SAUtils', '1.5.5'
 end

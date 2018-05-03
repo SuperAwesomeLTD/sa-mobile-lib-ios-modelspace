@@ -7,30 +7,30 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SATestUtils.h"
 #import "SAVASTAd.h"
 #import "SAVASTMedia.h"
 #import "SAVASTEvent.h"
 
-@interface SAVAST_ModelSpace_Tests2 : XCTestCase
+@interface TestSAVAST_2 : XCTestCase
+@property (nonatomic, strong) SATestUtils *utils;
 @end
 
-@implementation SAVAST_ModelSpace_Tests2
+@implementation TestSAVAST_2
 
-- (void)setUp {
+- (void) setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    _utils = [[SATestUtils alloc] init];
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+- (void) tearDown {
     [super tearDown];
 }
 
 - (void) testVASTAd1 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson4" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_4" ofType:@"json"];
     
     SAVASTAd *ad = [[SAVASTAd alloc] initWithJsonString:given];
     XCTAssertNotNil(ad);
@@ -55,8 +55,7 @@
 - (void) testVASTAd2 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson5" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_5" ofType:@"json"];
     
     SAVASTAd *ad = [[SAVASTAd alloc] initWithJsonString:given];
     XCTAssertNotNil(ad);
@@ -88,8 +87,7 @@
 - (void) testVASTAd3 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson6" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_6" ofType:@"json"];
     
     SAVASTAd *ad = [[SAVASTAd alloc] initWithJsonString:given];
     XCTAssertNotNil(ad);
@@ -121,8 +119,7 @@
 - (void) testVASTAd4 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson7" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_7" ofType:@"json"];
     
     SAVASTAd *ad = [[SAVASTAd alloc] initWithJsonString:given];
     XCTAssertNotNil(ad);

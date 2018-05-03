@@ -8,17 +8,20 @@
 
 @import XCTest;
 
+#import "SATestUtils.h"
 #import "SAVASTAd.h"
 #import "SAVASTMedia.h"
 #import "SAVASTEvent.h"
 
-@interface SAVAST_ModelSpace_Tests1 : XCTestCase
+@interface TestSAVAST_1 : XCTestCase
+@property (nonatomic, strong) SATestUtils *utils;
 @end
 
-@implementation SAVAST_ModelSpace_Tests1
+@implementation TestSAVAST_1
 
 - (void) setUp {
     [super setUp];
+    _utils = [[SATestUtils alloc] init];
 }
 
 - (void)tearDown {
@@ -28,8 +31,7 @@
 - (void) testVASTMedia1 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson1" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_1" ofType:@"json"];
     
     SAVASTMedia *media = [[SAVASTMedia alloc] initWithJsonString:given];
     XCTAssertNotNil(media);
@@ -51,8 +53,7 @@
 - (void) testVASTMedia2 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson2" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_2" ofType:@"json"];
     
     SAVASTMedia *media = [[SAVASTMedia alloc] initWithJsonString:given];
     XCTAssertNotNil(media);
@@ -74,8 +75,7 @@
 - (void) testVASTMedia3 {
     
     // given
-    NSString *fp1 = [[NSBundle mainBundle] pathForResource:@"vastjson3" ofType:@"json"];
-    NSString *given = [NSString stringWithContentsOfFile:fp1 encoding:NSUTF8StringEncoding error:nil];
+    NSString *given = [_utils fixtureWithName:@"mock_vast_response_3" ofType:@"json"];
     
     SAVASTMedia *media = [[SAVASTMedia alloc] initWithJsonString:given];
     XCTAssertNotNil(media);
